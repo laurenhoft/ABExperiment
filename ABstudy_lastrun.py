@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.1.4),
-    on June 14, 2022, at 17:45
+    on June 14, 2022, at 19:42
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -52,7 +52,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='C:\\Users\\User\\OneDrive\\Documents\\GitHub\\ABStudy\\ABstudy_lastrun.py',
+    originPath='C:\\Users\\User\\OneDrive\\Documents\\GitHub\\ABExperiment\\ABstudy_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -263,7 +263,7 @@ thisExp.nextEntry()
 routineTimer.reset()
 
 # set up handler to look after randomisation of conditions etc
-trials = data.TrialHandler(nReps=1.0, method='random', 
+trials = data.TrialHandler(nReps=1.0, method='sequential', 
     extraInfo=expInfo, originPath=-1,
     trialList=data.importConditions('Condition_Spreadsheet.xlsx'),
     seed=None, name='trials')
@@ -330,91 +330,91 @@ for thisTrial in trials:
             imageCount = 4
         
         if t>StimLength*4 + 1.5:
-            if Img5 == None:
+            if Img5 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img5
                 imageCount = 5
         
         if t>StimLength*5 + 1.5:
-            if Img6 == None:
+            if Img6 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img6
                 imageCount = 6
         
         if t>StimLength*6 + 1.5:
-            if Img7 == None:
+            if Img7 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img7
                 imageCount = 7
         
         if t>StimLength*7 + 1.5:
-            if Img8 == None:
+            if Img8 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img8
                 imageCount = 8
         
         if t>StimLength*8 + 1.5:
-            if Img9 == None:
+            if Img9 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img9
                 imageCount = 9
         
         if t>StimLength*9 + 1.5:
-            if Img10 == None:
+            if Img10 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img10
                 imageCount = 10
         
         if t>StimLength*10 + 1.5:
-            if Img11 == None:
+            if Img11 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img11
                 imageCount = 11
         
         if t>StimLength*11 + 1.5:
-            if Img12 == None:
+            if Img12 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img12
                 imageCount = 12
         
         if t>StimLength*12 + 1.5:
-            if Img13 == None:
+            if Img13 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img13
                 imageCount = 13
         
         if t>StimLength*13 + 1.5:
-            if Img14 == None:
+            if Img14 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img14
                 imageCount = 14
         
         if t>StimLength*14 + 1.5:
-            if Img15 == None:
+            if Img15 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img15
                 imageCount = 15
         
         if t>StimLength*15 + 1.5:
-            if Img16 == None:
+            if Img16 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img16
                 imageCount = 16
         
         if t>StimLength*16 + 1.5:
-            if Img17 == None:
+            if Img17 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img17

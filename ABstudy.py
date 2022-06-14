@@ -1,8 +1,8 @@
-#!/usr/bin/env python
+﻿#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.1.4),
-    on June 14, 2022, at 17:46
+    on June 14, 2022, at 18:26
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -52,7 +52,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='C:\\Users\\User\\OneDrive\\Documents\\GitHub\\ABStudy\\ABstudy.py',
+    originPath='C:\\Users\\User\\OneDrive\\Documents\\GitHub\\ABExperiment\\ABstudy.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -300,7 +300,6 @@ for thisTrial in trials:
             thisComponent.status = NOT_STARTED
     # reset timers
     t = 0
-    errorCount = 0
     _timeToFirstFrame = win.getFutureFlipTime(clock="now")
     AB_TestClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
     frameN = -1
@@ -474,12 +473,8 @@ for thisTrial in trials:
                 win.timeOnFlip(Rapid_Image_Present, 'tStopRefresh')  # time at next scr refresh
                 Rapid_Image_Present.setAutoDraw(False)
         if Rapid_Image_Present.status == STARTED:  # only update if drawing
-            try:
-                Rapid_Image_Present.setImage(curImage, log=False)
-            except:
-                Rapid_Image_Present.setImage("C:\\Users\\User\\OneDrive\\Documents\\GitHub\\ABStudy\\resources\\JPG\\blender.jpg", log=False)
-                errorCount = errorCount + 1
-                trials.addData('error' + str(errorCount), curImage)
+            Rapid_Image_Present.setImage(curImage, log=False)
+        
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
             core.quit()
