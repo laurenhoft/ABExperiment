@@ -1,0 +1,83 @@
+3.4978 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+13.2319 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1366, 768]. Using actual size
+15.5196 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002933EC139D0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002933F875C10>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+15.5203 	EXP 	window1: mouseVisible = True
+15.5203 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+15.5204 	EXP 	window1: recordFrameIntervals = False
+15.6851 	EXP 	window1: recordFrameIntervals = True
+15.8692 	EXP 	Screen (0) actual frame rate measured at 60.01Hz
+15.8693 	EXP 	window1: recordFrameIntervals = False
+19.1999 	EXP 	Created Practice_Ins = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='Practice_Ins', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Practice trials instructions here', units='height', win=Window(...), wrapWidth=1)
+19.2020 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+19.2091 	EXP 	Created Fixation_Cross_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='Fixation_Cross_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+19.2287 	EXP 	Created Rapid_Image_Present_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Rapid_Image_Present_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+19.2306 	EXP 	Created T1Response_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='T1Response_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+19.2445 	EXP 	Created T2Response_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='T2Response_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Did you see the blender?', units='height', win=Window(...), wrapWidth=1)
+19.2526 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Instructions here', units='height', win=Window(...), wrapWidth=1)
+19.2545 	EXP 	Created text_1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_1', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+19.2595 	EXP 	Created Fixation_Cross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='Fixation_Cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+19.2656 	EXP 	Created Rapid_Image_Present = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Rapid_Image_Present', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+19.2677 	EXP 	Created T1Response = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='T1Response', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+19.2739 	EXP 	Created T2Response = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='T2Response', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Did you see the blender?', units='height', win=Window(...), wrapWidth=1)
+19.2902 	EXP 	Practice_Ins: autoDraw = True
+23.7137 	EXP 	Imported Condition_Spreadsheet.xlsx as conditions, 468 conditions, 49 params
+23.7294 	EXP 	Created sequence: sequential, trialTypes=468, nReps=1, seed=None
+23.7307 	EXP 	New trial (rep=0, index=0): {'TrialType': 'AB', 'CondType': 'Lag1_T1P_T2P', 'Lag': 1, 'T1_PA': 'P', 'T2_PA': 'P', 'T1Loc': 8, 'T2Loc': 9, 'PreDistractor': 7, 'PostDistractor': 5, 'TotalImg': 14, 'cueWord': 'giraffe', 'T1cue': 'Did you see the giraffe?', 'StimLength': 0.05, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'pencil01', 'Img2': 'foosballtable', 'Img3': 'banana01', 'Img4': 'lipstick02a', 'Img5': 'toaster01', 'Img6': 'grape01', 'Img7': 'key01', 'Img8': 'giraffe', 'Img9': 'blender', 'Img10': 'pineapple01a', 'Img11': 'strawberry', 'Img12': 'teabag', 'Img13': 'dandelion', 'Img14': 'paintbrush01', 'Img15': 'blankImage', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'giraffe', 'Distractor1': 'pencil01', 'Distractor2': 'foosballtable', 'Distractor3': 'banana01', 'Distractor4': 'lipstick02a', 'Distractor5': 'toaster01', 'Distractor6': 'grape01', 'Distractor7': 'key01', 'Distractor8': 'medal02b', 'Distractor9': 'mushroom01', 'Distractor10': 'pineapple01a', 'Distractor11': 'strawberry', 'Distractor12': 'teabag', 'Distractor13': 'dandelion', 'Distractor14': 'paintbrush01', 'Distractor15': 'brick', 'Distractor16': 'sewingmachine01a'}
+23.7454 	DATA 	Keypress: space
+23.7460 	DATA 	Keypress: space
+23.7492 	EXP 	Practice_Ins: autoDraw = False
+23.7492 	EXP 	text_2: height = 0.05000000000000001
+23.7492 	EXP 	text_2: height = 0.05000000000000001
+23.7492 	EXP 	text_2: height = 0.05000000000000001
+23.7492 	EXP 	text_2: text = 'giraffe'
+23.7492 	EXP 	text_2: autoDraw = True
+24.7348 	EXP 	Fixation_Cross_2: autoDraw = True
+24.7515 	EXP 	text_2: autoDraw = False
+25.5280 	EXP 	Fixation_Cross_2: autoDraw = False
+25.5280 	EXP 	Rapid_Image_Present_2: autoDraw = True
+26.1999 	EXP 	text_2: autoDraw = False
+26.1999 	EXP 	Fixation_Cross_2: autoDraw = False
+26.1999 	EXP 	Rapid_Image_Present_2: autoDraw = False
+26.1999 	EXP 	T1Response_2: height = 0.05000000000000001
+26.1999 	EXP 	T1Response_2: height = 0.05000000000000001
+26.1999 	EXP 	T1Response_2: height = 0.05000000000000001
+26.1999 	EXP 	T1Response_2: text = 'Did you see the giraffe?'
+26.1999 	EXP 	T1Response_2: autoDraw = True
+27.1633 	DATA 	Keypress: right
+27.1680 	EXP 	T1Response_2: autoDraw = False
+27.1680 	EXP 	T2Response_2: autoDraw = True
+27.2579 	EXP 	New trial (rep=0, index=1): {'TrialType': 'AB', 'CondType': 'Lag1_T1P_T2P', 'Lag': 1, 'T1_PA': 'P', 'T2_PA': 'P', 'T1Loc': 6, 'T2Loc': 7, 'PreDistractor': 5, 'PostDistractor': 5, 'TotalImg': 12, 'cueWord': 'owl', 'T1cue': 'Did you see the owl?', 'StimLength': 0.05, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'paintbrush01', 'Img2': 'eraser', 'Img3': 'medal02b', 'Img4': 'hammer01', 'Img5': 'speaker04', 'Img6': 'greathornowl', 'Img7': 'blender', 'Img8': 'comb02a', 'Img9': 'plate01b', 'Img10': 'clock01a', 'Img11': 'button01', 'Img12': 'globe', 'Img13': 'blankImage', 'Img14': 'blankImage', 'Img15': 'blankImage', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'greathornowl', 'Distractor1': 'paintbrush01', 'Distractor2': 'eraser', 'Distractor3': 'medal02b', 'Distractor4': 'hammer01', 'Distractor5': 'speaker04', 'Distractor6': 'balloon01b', 'Distractor7': 'spoon01', 'Distractor8': 'comb02a', 'Distractor9': 'plate01b', 'Distractor10': 'clock01a', 'Distractor11': 'button01', 'Distractor12': 'globe', 'Distractor13': 'sunglasses04', 'Distractor14': 'pen04b', 'Distractor15': 'foosballtable', 'Distractor16': 'lighter01'}
+27.2859 	DATA 	Keypress: left
+27.2884 	EXP 	T2Response_2: autoDraw = False
+27.2884 	EXP 	text_2: height = 0.05000000000000001
+27.2884 	EXP 	text_2: height = 0.05000000000000001
+27.2884 	EXP 	text_2: height = 0.05000000000000001
+27.2884 	EXP 	text_2: text = 'owl'
+27.2884 	EXP 	text_2: autoDraw = True
+28.2849 	EXP 	Fixation_Cross_2: autoDraw = True
+28.3017 	EXP 	text_2: autoDraw = False
+28.9012 	EXP 	Fixation_Cross_2: autoDraw = False
+28.9012 	EXP 	Rapid_Image_Present_2: autoDraw = True
+29.6227 	EXP 	text_2: autoDraw = False
+29.6227 	EXP 	Fixation_Cross_2: autoDraw = False
+29.6227 	EXP 	Rapid_Image_Present_2: autoDraw = False
+29.6227 	EXP 	T1Response_2: height = 0.05000000000000001
+29.6227 	EXP 	T1Response_2: height = 0.05000000000000001
+29.6227 	EXP 	T1Response_2: height = 0.05000000000000001
+29.6227 	EXP 	T1Response_2: text = 'Did you see the owl?'
+29.6227 	EXP 	T1Response_2: autoDraw = True
+30.1918 	DATA 	Keypress: right
+30.2013 	EXP 	T1Response_2: autoDraw = False
+30.2013 	EXP 	T2Response_2: autoDraw = True
+30.2552 	EXP 	New trial (rep=0, index=2): {'TrialType': 'AB', 'CondType': 'Lag1_T1P_T2P', 'Lag': 1, 'T1_PA': 'P', 'T2_PA': 'P', 'T1Loc': 6, 'T2Loc': 7, 'PreDistractor': 5, 'PostDistractor': 3, 'TotalImg': 10, 'cueWord': 'handcuffs', 'T1cue': 'Did you see the handcuffs?', 'StimLength': 0.05, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'sewingmachine01a', 'Img2': 'scarf', 'Img3': 'carrot01', 'Img4': 'book01b', 'Img5': 'eraser', 'Img6': 'handcuffs', 'Img7': 'blender', 'Img8': 'lipstick02a', 'Img9': 'printer02', 'Img10': 'garlic01a', 'Img11': 'blankImage', 'Img12': 'blankImage', 'Img13': 'blankImage', 'Img14': 'blankImage', 'Img15': 'blankImage', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'handcuffs', 'Distractor1': 'sewingmachine01a', 'Distractor2': 'scarf', 'Distractor3': 'carrot01', 'Distractor4': 'book01b', 'Distractor5': 'eraser', 'Distractor6': 'watermelon01', 'Distractor7': 'plate01b', 'Distractor8': 'lipstick02a', 'Distractor9': 'printer02', 'Distractor10': 'garlic01a', 'Distractor11': 'envelope03a', 'Distractor12': 'binoculars01b', 'Distractor13': 'tomato01', 'Distractor14': 'candy', 'Distractor15': 'comb02a', 'Distractor16': 'iron01b'}
+30.2735 	DATA 	Keypress: left
+30.2760 	EXP 	T2Response_2: autoDraw = False
+30.2760 	EXP 	text_2: height = 0.05000000000000001
+30.2760 	EXP 	text_2: height = 0.05000000000000001
+30.2760 	EXP 	text_2: height = 0.05000000000000001
+30.2760 	EXP 	text_2: text = 'handcuffs'
+30.2760 	EXP 	text_2: autoDraw = True
+31.2679 	EXP 	Fixation_Cross_2: autoDraw = True
+31.2846 	EXP 	text_2: autoDraw = False
+31.3044 	DATA 	Keypress: escape
+32.3624 	EXP 	window1: mouseVisible = True

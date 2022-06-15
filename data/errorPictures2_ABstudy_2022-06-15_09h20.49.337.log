@@ -1,0 +1,985 @@
+3.5475 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+19.6153 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1366, 768]. Using actual size
+23.2668 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+23.2678 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000184C9263A30>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000184CAE95CA0>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+23.2680 	EXP 	window1: mouseVisible = True
+23.2681 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+23.2681 	EXP 	window1: recordFrameIntervals = False
+23.4337 	EXP 	window1: recordFrameIntervals = True
+24.3122 	WARNING 	t of last frame was 25.39ms (=1/39)
+24.3326 	WARNING 	t of last frame was 20.45ms (=1/48)
+24.4994 	EXP 	Screen (0) actual frame rate measured at 60.24Hz
+24.4996 	EXP 	window1: recordFrameIntervals = True
+28.5203 	EXP 	Created Practice_Ins = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='Practice_Ins', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Practice trials instructions here', units='height', win=Window(...), wrapWidth=1)
+28.5223 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+28.5291 	EXP 	Created Fixation_Cross_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='Fixation_Cross_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+28.5505 	EXP 	Created Rapid_Image_Present_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Rapid_Image_Present_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+28.5524 	EXP 	Created T1Response_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='T1Response_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+28.5668 	EXP 	Created T2Response_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='T2Response_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Did you see the blender?', units='height', win=Window(...), wrapWidth=1)
+28.5757 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Instructions here', units='height', win=Window(...), wrapWidth=1)
+28.5776 	EXP 	Created text_1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_1', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+28.5818 	EXP 	Created Fixation_Cross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='Fixation_Cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+28.5880 	EXP 	Created Rapid_Image_Present = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Rapid_Image_Present', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+28.5898 	EXP 	Created T1Response = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='T1Response', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+28.5958 	EXP 	Created T2Response = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='T2Response', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Did you see the blender?', units='height', win=Window(...), wrapWidth=1)
+29.0881 	WARNING 	t of last frame was 4589.52ms (=1/0)
+29.0881 	EXP 	Practice_Ins: autoDraw = True
+29.9776 	EXP 	Imported C:/Users/User/OneDrive/Documents/GitHub/Test/Practice_Condition.xlsx as conditions, 12 conditions, 49 params
+29.9799 	EXP 	Created sequence: sequential, trialTypes=12, nReps=1, seed=None
+29.9812 	EXP 	New trial (rep=0, index=0): {'TrialType': 'AB', 'CondType': 'Lag1_T1P_T2P', 'Lag': 1, 'T1_PA': 'P', 'T2_PA': 'P', 'T1Loc': 8, 'T2Loc': 9, 'PreDistractor': 7, 'PostDistractor': 5, 'TotalImg': 14, 'cueWord': 'Tennis racket', 'T1cue': 'Did you see the Tennis racket?', 'StimLength': 0.5, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'coconut', 'Img2': 'computermouse06', 'Img3': 'croissant01', 'Img4': 'deodorant02a', 'Img5': 'pillow01a', 'Img6': 'peanut01', 'Img7': 'boot02b', 'Img8': 'tennisracket', 'Img9': 'blender', 'Img10': 'crayon', 'Img11': 'eggplant', 'Img12': 'marker01a', 'Img13': 'plant01', 'Img14': 'radish01', 'Img15': 'blankImage', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'tennisracket', 'Distractor1': 'coconut', 'Distractor2': 'computermouse06', 'Distractor3': 'croissant01', 'Distractor4': 'deodorant02a', 'Distractor5': 'pillow01a', 'Distractor6': 'peanut01', 'Distractor7': 'boot02b', 'Distractor8': 'camera01a', 'Distractor9': 'chalk', 'Distractor10': 'crayon', 'Distractor11': 'eggplant', 'Distractor12': 'marker01a', 'Distractor13': 'plant01', 'Distractor14': 'radish01', 'Distractor15': 'tampon', 'Distractor16': 'tshirt'}
+29.9921 	DATA 	Keypress: space
+29.9945 	WARNING 	t of last frame was 117.67ms (=1/8)
+29.9945 	EXP 	Practice_Ins: autoDraw = False
+29.9945 	EXP 	text_2: height = 0.05000000000000001
+29.9945 	EXP 	text_2: height = 0.05000000000000001
+29.9945 	EXP 	text_2: height = 0.05000000000000001
+29.9945 	EXP 	text_2: text = 'Tennis racket'
+29.9945 	EXP 	text_2: autoDraw = True
+30.9932 	EXP 	Fixation_Cross_2: autoDraw = True
+31.0098 	EXP 	text_2: autoDraw = False
+31.8342 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+31.8342 	EXP 	Fixation_Cross_2: autoDraw = False
+31.8342 	EXP 	Rapid_Image_Present_2: autoDraw = True
+38.6876 	EXP 	text_2: autoDraw = False
+38.6876 	EXP 	Fixation_Cross_2: autoDraw = False
+38.6876 	EXP 	Rapid_Image_Present_2: autoDraw = False
+38.6876 	EXP 	T1Response_2: height = 0.05000000000000001
+38.6876 	EXP 	T1Response_2: height = 0.05000000000000001
+38.6876 	EXP 	T1Response_2: height = 0.05000000000000001
+38.6876 	EXP 	T1Response_2: text = 'Did you see the Tennis racket?'
+38.6876 	EXP 	T1Response_2: autoDraw = True
+39.5014 	DATA 	Keypress: right
+39.5097 	EXP 	T1Response_2: autoDraw = False
+39.5097 	EXP 	T2Response_2: autoDraw = True
+39.5808 	EXP 	New trial (rep=0, index=1): {'TrialType': 'AB', 'CondType': 'Lag1_T1P_T2P', 'Lag': 1, 'T1_PA': 'P', 'T2_PA': 'P', 'T1Loc': 6, 'T2Loc': 7, 'PreDistractor': 5, 'PostDistractor': 5, 'TotalImg': 12, 'cueWord': 'triangle', 'T1cue': 'Did you see the triangle?', 'StimLength': 0.5, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'ginger', 'Img2': 'mousetrap', 'Img3': 'plum01', 'Img4': 'slipper01b', 'Img5': 'coffeebeans', 'Img6': 'triangle', 'Img7': 'blender', 'Img8': 'pants', 'Img9': 'raspberry01', 'Img10': 'rope03', 'Img11': 'scale01a', 'Img12': 'vase01', 'Img13': 'blankImage', 'Img14': 'blankImage', 'Img15': 'blankImage', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'triangle', 'Distractor1': 'ginger', 'Distractor2': 'mousetrap', 'Distractor3': 'plum01', 'Distractor4': 'slipper01b', 'Distractor5': 'coffeebeans', 'Distractor6': 'cookie01', 'Distractor7': 'nailclipper03b', 'Distractor8': 'pants', 'Distractor9': 'raspberry01', 'Distractor10': 'rope03', 'Distractor11': 'scale01a', 'Distractor12': 'vase01', 'Distractor13': 'bottlecap', 'Distractor14': 'teapot', 'Distractor15': 'backpack01a', 'Distractor16': 'ball02'}
+39.6047 	DATA 	Keypress: left
+39.6073 	EXP 	T2Response_2: autoDraw = False
+39.6073 	EXP 	text_2: height = 0.05000000000000001
+39.6073 	EXP 	text_2: height = 0.05000000000000001
+39.6073 	EXP 	text_2: height = 0.05000000000000001
+39.6073 	EXP 	text_2: text = 'triangle'
+39.6073 	EXP 	text_2: autoDraw = True
+40.5930 	EXP 	Fixation_Cross_2: autoDraw = True
+40.6097 	EXP 	text_2: autoDraw = False
+41.2330 	EXP 	Fixation_Cross_2: autoDraw = False
+41.2330 	EXP 	Rapid_Image_Present_2: autoDraw = True
+43.3173 	DEPRECATION 	Couldn't find image resources\JPG\coffeebeans.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\coffeebeans.jpg)
+43.3309 	DEPRECATION 	Couldn't find image resources\JPG\coffeebeans.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\coffeebeans.jpg)
+43.3416 	DEPRECATION 	Couldn't find image resources\JPG\coffeebeans.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\coffeebeans.jpg)
+43.3542 	DEPRECATION 	Couldn't find image resources\JPG\coffeebeans.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\coffeebeans.jpg)
+43.3644 	DEPRECATION 	Couldn't find image resources\JPG\coffeebeans.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\coffeebeans.jpg)
+43.3784 	DEPRECATION 	Couldn't find image resources\JPG\coffeebeans.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\coffeebeans.jpg)
+43.4653 	DEPRECATION 	Couldn't find image resources\JPG\coffeebeans.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\coffeebeans.jpg)
+43.4747 	DEPRECATION 	Couldn't find image resources\JPG\coffeebeans.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\coffeebeans.jpg)
+43.4845 	DEPRECATION 	Couldn't find image resources\JPG\coffeebeans.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\coffeebeans.jpg)
+43.4947 	DEPRECATION 	Couldn't find image resources\JPG\coffeebeans.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\coffeebeans.jpg)
+43.5120 	DEPRECATION 	Couldn't find image resources\JPG\coffeebeans.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\coffeebeans.jpg)
+43.5283 	DEPRECATION 	Couldn't find image resources\JPG\coffeebeans.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\coffeebeans.jpg)
+43.5450 	DEPRECATION 	Couldn't find image resources\JPG\coffeebeans.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\coffeebeans.jpg)
+43.5633 	DEPRECATION 	Couldn't find image resources\JPG\coffeebeans.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\coffeebeans.jpg)
+43.5784 	DEPRECATION 	Couldn't find image resources\JPG\coffeebeans.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\coffeebeans.jpg)
+47.2895 	EXP 	text_2: autoDraw = False
+47.2895 	EXP 	Fixation_Cross_2: autoDraw = False
+47.2895 	EXP 	T1Response_2: height = 0.05000000000000001
+47.2895 	EXP 	T1Response_2: height = 0.05000000000000001
+47.2895 	EXP 	T1Response_2: height = 0.05000000000000001
+47.2895 	EXP 	T1Response_2: text = 'Did you see the triangle?'
+47.2895 	EXP 	T1Response_2: autoDraw = True
+47.7693 	DATA 	Keypress: right
+47.7764 	EXP 	T1Response_2: autoDraw = False
+47.7764 	EXP 	T2Response_2: autoDraw = True
+47.8477 	EXP 	New trial (rep=0, index=2): {'TrialType': 'AB', 'CondType': 'Lag5_T1P_T2P', 'Lag': 5, 'T1_PA': 'P', 'T2_PA': 'P', 'T1Loc': 7, 'T2Loc': 12, 'PreDistractor': 6, 'PostDistractor': 3, 'TotalImg': 15, 'cueWord': 'vacuum', 'T1cue': 'Did you see the vacuum?', 'StimLength': 0.5, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'fork07b', 'Img2': 'lightbulb01', 'Img3': 'manshoe', 'Img4': 'saw02b', 'Img5': 'shoelace', 'Img6': 'soap03a', 'Img7': 'vacuumcleaner01', 'Img8': 'floortile01', 'Img9': 'necklace', 'Img10': 'doll', 'Img11': 'cabbage', 'Img12': 'blender', 'Img13': 'hanger02a', 'Img14': 'laptop01a', 'Img15': 'nailpolish03b', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'vacuumcleaner01', 'Distractor1': 'fork07b', 'Distractor2': 'lightbulb01', 'Distractor3': 'manshoe', 'Distractor4': 'saw02b', 'Distractor5': 'shoelace', 'Distractor6': 'soap03a', 'Distractor7': 'tweezers02a', 'Distractor8': 'floortile01', 'Distractor9': 'necklace', 'Distractor10': 'doll', 'Distractor11': 'cabbage', 'Distractor12': 'diaper01c', 'Distractor13': 'hanger02a', 'Distractor14': 'laptop01a', 'Distractor15': 'nailpolish03b', 'Distractor16': 'puzzlepiece01'}
+47.8800 	DATA 	Keypress: left
+47.8827 	EXP 	T2Response_2: autoDraw = False
+47.8827 	EXP 	text_2: height = 0.05000000000000001
+47.8827 	EXP 	text_2: height = 0.05000000000000001
+47.8827 	EXP 	text_2: height = 0.05000000000000001
+47.8827 	EXP 	text_2: text = 'vacuum'
+47.8827 	EXP 	text_2: autoDraw = True
+48.8765 	EXP 	Fixation_Cross_2: autoDraw = True
+48.8930 	EXP 	text_2: autoDraw = False
+49.5077 	EXP 	Fixation_Cross_2: autoDraw = False
+55.9720 	DATA 	Keypress: right
+56.1935 	DATA 	Keypress: left
+56.9831 	EXP 	text_2: autoDraw = False
+56.9831 	EXP 	Fixation_Cross_2: autoDraw = False
+56.9831 	EXP 	T1Response_2: height = 0.05000000000000001
+56.9831 	EXP 	T1Response_2: height = 0.05000000000000001
+56.9831 	EXP 	T1Response_2: height = 0.05000000000000001
+56.9831 	EXP 	T1Response_2: text = 'Did you see the vacuum?'
+56.9831 	EXP 	T1Response_2: autoDraw = True
+57.4319 	DATA 	Keypress: right
+57.4427 	EXP 	T1Response_2: autoDraw = False
+57.4427 	EXP 	T2Response_2: autoDraw = True
+57.5148 	EXP 	New trial (rep=0, index=3): {'TrialType': 'AB', 'CondType': 'Lag5_T1P_T2P', 'Lag': 5, 'T1_PA': 'P', 'T2_PA': 'P', 'T1Loc': 5, 'T2Loc': 10, 'PreDistractor': 4, 'PostDistractor': 5, 'TotalImg': 15, 'cueWord': 'Vulture', 'T1cue': 'Did you see the Vulture?', 'StimLength': 0.5, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'shorts01', 'Img2': 'toast', 'Img3': 'ramekin01', 'Img4': 'bib', 'Img5': 'vulture', 'Img6': 'cracker02', 'Img7': 'date', 'Img8': 'glasses01a', 'Img9': 'hat03b', 'Img10': 'blender', 'Img11': 'measuringtape01', 'Img12': 'nail', 'Img13': 'pill', 'Img14': 'brie', 'Img15': 'starfish01', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'vulture', 'Distractor1': 'shorts01', 'Distractor2': 'toast', 'Distractor3': 'ramekin01', 'Distractor4': 'bib', 'Distractor5': 'almonds', 'Distractor6': 'cracker02', 'Distractor7': 'date', 'Distractor8': 'glasses01a', 'Distractor9': 'hat03b', 'Distractor10': 'magnifyingglass01b', 'Distractor11': 'measuringtape01', 'Distractor12': 'nail', 'Distractor13': 'pill', 'Distractor14': 'brie', 'Distractor15': 'starfish01', 'Distractor16': 'teddybear02b'}
+57.5362 	DATA 	Keypress: left
+57.5388 	EXP 	T2Response_2: autoDraw = False
+57.5388 	EXP 	text_2: height = 0.05000000000000001
+57.5388 	EXP 	text_2: height = 0.05000000000000001
+57.5388 	EXP 	text_2: height = 0.05000000000000001
+57.5388 	EXP 	text_2: text = 'Vulture'
+57.5388 	EXP 	text_2: autoDraw = True
+58.5264 	EXP 	Fixation_Cross_2: autoDraw = True
+58.5430 	EXP 	text_2: autoDraw = False
+59.1531 	EXP 	Fixation_Cross_2: autoDraw = False
+65.6256 	DEPRECATION 	Couldn't find image resources\JPG\brie.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\brie.jpg)
+65.6348 	DEPRECATION 	Couldn't find image resources\JPG\brie.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\brie.jpg)
+65.6444 	DEPRECATION 	Couldn't find image resources\JPG\brie.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\brie.jpg)
+65.6620 	DEPRECATION 	Couldn't find image resources\JPG\brie.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\brie.jpg)
+65.6783 	DEPRECATION 	Couldn't find image resources\JPG\brie.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\brie.jpg)
+65.6952 	DEPRECATION 	Couldn't find image resources\JPG\brie.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\brie.jpg)
+65.7117 	DEPRECATION 	Couldn't find image resources\JPG\brie.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\brie.jpg)
+65.7283 	DEPRECATION 	Couldn't find image resources\JPG\brie.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\brie.jpg)
+65.7450 	DEPRECATION 	Couldn't find image resources\JPG\brie.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\brie.jpg)
+65.7617 	DEPRECATION 	Couldn't find image resources\JPG\brie.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\brie.jpg)
+65.7784 	DEPRECATION 	Couldn't find image resources\JPG\brie.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\brie.jpg)
+65.7950 	DEPRECATION 	Couldn't find image resources\JPG\brie.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\brie.jpg)
+65.8117 	DEPRECATION 	Couldn't find image resources\JPG\brie.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\brie.jpg)
+65.8284 	DEPRECATION 	Couldn't find image resources\JPG\brie.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\brie.jpg)
+65.8506 	DEPRECATION 	Couldn't find image resources\JPG\brie.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\brie.jpg)
+65.8617 	DEPRECATION 	Couldn't find image resources\JPG\brie.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\brie.jpg)
+65.8784 	DEPRECATION 	Couldn't find image resources\JPG\brie.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\brie.jpg)
+65.8951 	DEPRECATION 	Couldn't find image resources\JPG\brie.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\brie.jpg)
+65.9117 	DEPRECATION 	Couldn't find image resources\JPG\brie.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\brie.jpg)
+65.9284 	DEPRECATION 	Couldn't find image resources\JPG\brie.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\brie.jpg)
+65.9450 	DEPRECATION 	Couldn't find image resources\JPG\brie.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\brie.jpg)
+65.9618 	DEPRECATION 	Couldn't find image resources\JPG\brie.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\brie.jpg)
+65.9783 	DEPRECATION 	Couldn't find image resources\JPG\brie.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\brie.jpg)
+65.9950 	DEPRECATION 	Couldn't find image resources\JPG\brie.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\brie.jpg)
+66.0117 	DEPRECATION 	Couldn't find image resources\JPG\brie.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\brie.jpg)
+66.6945 	EXP 	text_2: autoDraw = False
+66.6945 	EXP 	Fixation_Cross_2: autoDraw = False
+66.6945 	EXP 	T1Response_2: height = 0.05000000000000001
+66.6945 	EXP 	T1Response_2: height = 0.05000000000000001
+66.6945 	EXP 	T1Response_2: height = 0.05000000000000001
+66.6945 	EXP 	T1Response_2: text = 'Did you see the Vulture?'
+66.6945 	EXP 	T1Response_2: autoDraw = True
+67.2521 	DATA 	Keypress: left
+67.2596 	EXP 	T1Response_2: autoDraw = False
+67.2596 	EXP 	T2Response_2: autoDraw = True
+67.3297 	DATA 	Keypress: right
+67.3452 	EXP 	New trial (rep=0, index=4): {'TrialType': 'AB', 'CondType': 'Lag5_T1P_T2P', 'Lag': 5, 'T1_PA': 'P', 'T2_PA': 'P', 'T1Loc': 5, 'T2Loc': 10, 'PreDistractor': 4, 'PostDistractor': 5, 'TotalImg': 15, 'cueWord': 'washing machine', 'T1cue': 'Did you see the washing machine?', 'StimLength': 0.5, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'waterbottle03', 'Img2': 'wheel01', 'Img3': 'flashlight02b', 'Img4': 'zucchini01', 'Img5': 'washingmachine', 'Img6': 'headphones02b', 'Img7': 'nutcracker01', 'Img8': 'paintroller01', 'Img9': 'paperclip03', 'Img10': 'blender', 'Img11': 'ribbon04', 'Img12': 'tambourine01', 'Img13': 'bottleofredwine01', 'Img14': 'pitabread', 'Img15': 'pot02a', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'washingmachine', 'Distractor1': 'waterbottle03', 'Distractor2': 'wheel01', 'Distractor3': 'flashlight02b', 'Distractor4': 'zucchini01', 'Distractor5': 'flyswatter', 'Distractor6': 'headphones02b', 'Distractor7': 'nutcracker01', 'Distractor8': 'paintroller01', 'Distractor9': 'paperclip03', 'Distractor10': 'partyhat', 'Distractor11': 'ribbon04', 'Distractor12': 'tambourine01', 'Distractor13': 'bottleofredwine01', 'Distractor14': 'pitabread', 'Distractor15': 'pot02a', 'Distractor16': 'qtip'}
+67.3651 	EXP 	T2Response_2: autoDraw = False
+67.3651 	EXP 	text_2: height = 0.05000000000000001
+67.3651 	EXP 	text_2: height = 0.05000000000000001
+67.3651 	EXP 	text_2: height = 0.05000000000000001
+67.3651 	EXP 	text_2: text = 'washing machine'
+67.3651 	EXP 	text_2: autoDraw = True
+68.3593 	EXP 	Fixation_Cross_2: autoDraw = True
+68.3758 	EXP 	text_2: autoDraw = False
+68.9891 	EXP 	Fixation_Cross_2: autoDraw = False
+74.4461 	DEPRECATION 	Couldn't find image resources\JPG\tambourine01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\tambourine01.jpg)
+74.4567 	DEPRECATION 	Couldn't find image resources\JPG\tambourine01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\tambourine01.jpg)
+74.4657 	DEPRECATION 	Couldn't find image resources\JPG\tambourine01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\tambourine01.jpg)
+74.4775 	DEPRECATION 	Couldn't find image resources\JPG\tambourine01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\tambourine01.jpg)
+74.4948 	DEPRECATION 	Couldn't find image resources\JPG\tambourine01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\tambourine01.jpg)
+74.5116 	DEPRECATION 	Couldn't find image resources\JPG\tambourine01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\tambourine01.jpg)
+74.5283 	DEPRECATION 	Couldn't find image resources\JPG\tambourine01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\tambourine01.jpg)
+74.5445 	DEPRECATION 	Couldn't find image resources\JPG\tambourine01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\tambourine01.jpg)
+74.5614 	DEPRECATION 	Couldn't find image resources\JPG\tambourine01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\tambourine01.jpg)
+74.5781 	DEPRECATION 	Couldn't find image resources\JPG\tambourine01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\tambourine01.jpg)
+74.5948 	DEPRECATION 	Couldn't find image resources\JPG\tambourine01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\tambourine01.jpg)
+74.6115 	DEPRECATION 	Couldn't find image resources\JPG\tambourine01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\tambourine01.jpg)
+74.6282 	DEPRECATION 	Couldn't find image resources\JPG\tambourine01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\tambourine01.jpg)
+74.7031 	DEPRECATION 	Couldn't find image resources\JPG\tambourine01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\tambourine01.jpg)
+74.7133 	DEPRECATION 	Couldn't find image resources\JPG\tambourine01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\tambourine01.jpg)
+74.7240 	DEPRECATION 	Couldn't find image resources\JPG\tambourine01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\tambourine01.jpg)
+74.7343 	DEPRECATION 	Couldn't find image resources\JPG\tambourine01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\tambourine01.jpg)
+74.7443 	DEPRECATION 	Couldn't find image resources\JPG\tambourine01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\tambourine01.jpg)
+74.7607 	DEPRECATION 	Couldn't find image resources\JPG\tambourine01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\tambourine01.jpg)
+74.7775 	DEPRECATION 	Couldn't find image resources\JPG\tambourine01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\tambourine01.jpg)
+74.7943 	DEPRECATION 	Couldn't find image resources\JPG\tambourine01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\tambourine01.jpg)
+74.8108 	DEPRECATION 	Couldn't find image resources\JPG\tambourine01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\tambourine01.jpg)
+74.8282 	DEPRECATION 	Couldn't find image resources\JPG\tambourine01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\tambourine01.jpg)
+74.8450 	DEPRECATION 	Couldn't find image resources\JPG\tambourine01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\tambourine01.jpg)
+76.5730 	EXP 	text_2: autoDraw = False
+76.5730 	EXP 	Fixation_Cross_2: autoDraw = False
+76.5730 	EXP 	T1Response_2: height = 0.05000000000000001
+76.5730 	EXP 	T1Response_2: height = 0.05000000000000001
+76.5730 	EXP 	T1Response_2: height = 0.05000000000000001
+76.5730 	EXP 	T1Response_2: text = 'Did you see the washing machine?'
+76.5730 	EXP 	T1Response_2: autoDraw = True
+77.0640 	DATA 	Keypress: right
+77.0925 	EXP 	T1Response_2: autoDraw = False
+77.0925 	EXP 	T2Response_2: autoDraw = True
+77.1795 	EXP 	New trial (rep=0, index=5): {'TrialType': 'AB', 'CondType': 'Lag1_T1P_T2A', 'Lag': 1, 'T1_PA': 'P', 'T2_PA': 'A', 'T1Loc': 8, 'T2Loc': 9, 'PreDistractor': 7, 'PostDistractor': 5, 'TotalImg': 14, 'cueWord': 'flower', 'T1cue': 'Did you see the flower?', 'StimLength': 0.5, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'razor01', 'Img2': 'axe01', 'Img3': 'binder03b', 'Img4': 'bowl01', 'Img5': 'kettle01', 'Img6': 'lettuce', 'Img7': 'lime', 'Img8': 'plasticflower01b', 'Img9': 'mitten04', 'Img10': 'pencilcase', 'Img11': 'plunger02', 'Img12': 'strawbasket01', 'Img13': 'toothpick02', 'Img14': 'wallet02a', 'Img15': 'blankImage', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'plasticflower01b', 'Distractor1': 'razor01', 'Distractor2': 'axe01', 'Distractor3': 'binder03b', 'Distractor4': 'bowl01', 'Distractor5': 'kettle01', 'Distractor6': 'lettuce', 'Distractor7': 'lime', 'Distractor8': 'lock03a', 'Distractor9': 'mitten04', 'Distractor10': 'pencilcase', 'Distractor11': 'plunger02', 'Distractor12': 'strawbasket01', 'Distractor13': 'toothpick02', 'Distractor14': 'wallet02a', 'Distractor15': 'carkeys', 'Distractor16': 'pickle01a'}
+77.1968 	DATA 	Keypress: left
+77.1993 	EXP 	T2Response_2: autoDraw = False
+77.1993 	EXP 	text_2: height = 0.05000000000000001
+77.1993 	EXP 	text_2: height = 0.05000000000000001
+77.1993 	EXP 	text_2: height = 0.05000000000000001
+77.1993 	EXP 	text_2: text = 'flower'
+77.1993 	EXP 	text_2: autoDraw = True
+78.1925 	EXP 	Fixation_Cross_2: autoDraw = True
+78.2091 	EXP 	text_2: autoDraw = False
+78.7969 	EXP 	Fixation_Cross_2: autoDraw = False
+83.1896 	DEPRECATION 	Couldn't find image resources\JPG\pencilcase.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\pencilcase.jpg)
+83.2017 	DEPRECATION 	Couldn't find image resources\JPG\pencilcase.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\pencilcase.jpg)
+83.2120 	DEPRECATION 	Couldn't find image resources\JPG\pencilcase.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\pencilcase.jpg)
+83.2199 	DEPRECATION 	Couldn't find image resources\JPG\pencilcase.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\pencilcase.jpg)
+83.3218 	DEPRECATION 	Couldn't find image resources\JPG\pencilcase.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\pencilcase.jpg)
+83.3307 	DEPRECATION 	Couldn't find image resources\JPG\pencilcase.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\pencilcase.jpg)
+83.3394 	DEPRECATION 	Couldn't find image resources\JPG\pencilcase.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\pencilcase.jpg)
+83.3482 	DEPRECATION 	Couldn't find image resources\JPG\pencilcase.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\pencilcase.jpg)
+83.3609 	DEPRECATION 	Couldn't find image resources\JPG\pencilcase.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\pencilcase.jpg)
+83.3777 	DEPRECATION 	Couldn't find image resources\JPG\pencilcase.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\pencilcase.jpg)
+83.3945 	DEPRECATION 	Couldn't find image resources\JPG\pencilcase.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\pencilcase.jpg)
+83.4111 	DEPRECATION 	Couldn't find image resources\JPG\pencilcase.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\pencilcase.jpg)
+83.4278 	DEPRECATION 	Couldn't find image resources\JPG\pencilcase.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\pencilcase.jpg)
+83.4448 	DEPRECATION 	Couldn't find image resources\JPG\pencilcase.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\pencilcase.jpg)
+83.4610 	DEPRECATION 	Couldn't find image resources\JPG\pencilcase.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\pencilcase.jpg)
+83.4778 	DEPRECATION 	Couldn't find image resources\JPG\pencilcase.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\pencilcase.jpg)
+83.4947 	DEPRECATION 	Couldn't find image resources\JPG\pencilcase.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\pencilcase.jpg)
+83.5112 	DEPRECATION 	Couldn't find image resources\JPG\pencilcase.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\pencilcase.jpg)
+83.5274 	DEPRECATION 	Couldn't find image resources\JPG\pencilcase.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\pencilcase.jpg)
+83.5448 	DEPRECATION 	Couldn't find image resources\JPG\pencilcase.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\pencilcase.jpg)
+83.5614 	DEPRECATION 	Couldn't find image resources\JPG\pencilcase.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\pencilcase.jpg)
+83.5780 	DEPRECATION 	Couldn't find image resources\JPG\pencilcase.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\pencilcase.jpg)
+83.5947 	DEPRECATION 	Couldn't find image resources\JPG\pencilcase.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\pencilcase.jpg)
+83.6114 	DEPRECATION 	Couldn't find image resources\JPG\pencilcase.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\pencilcase.jpg)
+83.6281 	DEPRECATION 	Couldn't find image resources\JPG\pencilcase.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\pencilcase.jpg)
+83.6449 	DEPRECATION 	Couldn't find image resources\JPG\pencilcase.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\pencilcase.jpg)
+83.6617 	DEPRECATION 	Couldn't find image resources\JPG\pencilcase.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\pencilcase.jpg)
+83.6781 	DEPRECATION 	Couldn't find image resources\JPG\pencilcase.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\pencilcase.jpg)
+85.8623 	EXP 	text_2: autoDraw = False
+85.8623 	EXP 	Fixation_Cross_2: autoDraw = False
+85.8623 	EXP 	T1Response_2: height = 0.05000000000000001
+85.8623 	EXP 	T1Response_2: height = 0.05000000000000001
+85.8623 	EXP 	T1Response_2: height = 0.05000000000000001
+85.8623 	EXP 	T1Response_2: text = 'Did you see the flower?'
+85.8623 	EXP 	T1Response_2: autoDraw = True
+86.4660 	DATA 	Keypress: right
+86.4757 	EXP 	T1Response_2: autoDraw = False
+86.4757 	EXP 	T2Response_2: autoDraw = True
+86.5459 	EXP 	New trial (rep=0, index=6): {'TrialType': 'AB', 'CondType': 'Lag1_T1P_T2A', 'Lag': 1, 'T1_PA': 'P', 'T2_PA': 'A', 'T1Loc': 5, 'T2Loc': 6, 'PreDistractor': 4, 'PostDistractor': 5, 'TotalImg': 11, 'cueWord': 'Webcam', 'T1cue': 'Did you see the Webcam?', 'StimLength': 0.5, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'pictureframe04', 'Img2': 'stapleremover', 'Img3': 'straw', 'Img4': 'adjustablewrench01b', 'Img5': 'webcam', 'Img6': 'cane', 'Img7': 'hairdryer02a', 'Img8': 'icepack', 'Img9': 'kiwi01a', 'Img10': 'lifejacket', 'Img11': 'piggybank', 'Img12': 'blankImage', 'Img13': 'blankImage', 'Img14': 'blankImage', 'Img15': 'blankImage', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'webcam', 'Distractor1': 'pictureframe04', 'Distractor2': 'stapleremover', 'Distractor3': 'straw', 'Distractor4': 'adjustablewrench01b', 'Distractor5': 'asparagus', 'Distractor6': 'cane', 'Distractor7': 'hairdryer02a', 'Distractor8': 'icepack', 'Distractor9': 'kiwi01a', 'Distractor10': 'lifejacket', 'Distractor11': 'piggybank', 'Distractor12': 'workglove02c', 'Distractor13': 'bandaid01', 'Distractor14': 'glassmop', 'Distractor15': 'hairclip03', 'Distractor16': 'remotecontrol04'}
+86.5681 	DATA 	Keypress: left
+86.5706 	EXP 	T2Response_2: autoDraw = False
+86.5706 	EXP 	text_2: height = 0.05000000000000001
+86.5706 	EXP 	text_2: height = 0.05000000000000001
+86.5706 	EXP 	text_2: height = 0.05000000000000001
+86.5706 	EXP 	text_2: text = 'Webcam'
+86.5706 	EXP 	text_2: autoDraw = True
+87.5591 	EXP 	Fixation_Cross_2: autoDraw = True
+87.5758 	EXP 	text_2: autoDraw = False
+88.1797 	EXP 	Fixation_Cross_2: autoDraw = False
+92.1504 	DEPRECATION 	Couldn't find image resources\JPG\kiwi01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\kiwi01a.jpg)
+92.1621 	DEPRECATION 	Couldn't find image resources\JPG\kiwi01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\kiwi01a.jpg)
+92.1725 	DEPRECATION 	Couldn't find image resources\JPG\kiwi01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\kiwi01a.jpg)
+92.1813 	DEPRECATION 	Couldn't find image resources\JPG\kiwi01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\kiwi01a.jpg)
+92.1943 	DEPRECATION 	Couldn't find image resources\JPG\kiwi01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\kiwi01a.jpg)
+92.2114 	DEPRECATION 	Couldn't find image resources\JPG\kiwi01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\kiwi01a.jpg)
+92.2279 	DEPRECATION 	Couldn't find image resources\JPG\kiwi01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\kiwi01a.jpg)
+92.2446 	DEPRECATION 	Couldn't find image resources\JPG\kiwi01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\kiwi01a.jpg)
+92.2614 	DEPRECATION 	Couldn't find image resources\JPG\kiwi01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\kiwi01a.jpg)
+92.2779 	DEPRECATION 	Couldn't find image resources\JPG\kiwi01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\kiwi01a.jpg)
+92.2948 	DEPRECATION 	Couldn't find image resources\JPG\kiwi01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\kiwi01a.jpg)
+92.3109 	DEPRECATION 	Couldn't find image resources\JPG\kiwi01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\kiwi01a.jpg)
+92.3276 	DEPRECATION 	Couldn't find image resources\JPG\kiwi01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\kiwi01a.jpg)
+92.3440 	DEPRECATION 	Couldn't find image resources\JPG\kiwi01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\kiwi01a.jpg)
+92.3606 	DEPRECATION 	Couldn't find image resources\JPG\kiwi01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\kiwi01a.jpg)
+92.3774 	DEPRECATION 	Couldn't find image resources\JPG\kiwi01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\kiwi01a.jpg)
+92.3944 	DEPRECATION 	Couldn't find image resources\JPG\kiwi01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\kiwi01a.jpg)
+92.4105 	DEPRECATION 	Couldn't find image resources\JPG\kiwi01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\kiwi01a.jpg)
+92.4279 	DEPRECATION 	Couldn't find image resources\JPG\kiwi01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\kiwi01a.jpg)
+92.4447 	DEPRECATION 	Couldn't find image resources\JPG\kiwi01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\kiwi01a.jpg)
+92.4612 	DEPRECATION 	Couldn't find image resources\JPG\kiwi01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\kiwi01a.jpg)
+92.4779 	DEPRECATION 	Couldn't find image resources\JPG\kiwi01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\kiwi01a.jpg)
+92.4946 	DEPRECATION 	Couldn't find image resources\JPG\kiwi01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\kiwi01a.jpg)
+92.5114 	DEPRECATION 	Couldn't find image resources\JPG\kiwi01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\kiwi01a.jpg)
+92.5279 	DEPRECATION 	Couldn't find image resources\JPG\kiwi01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\kiwi01a.jpg)
+92.5446 	DEPRECATION 	Couldn't find image resources\JPG\kiwi01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\kiwi01a.jpg)
+93.7450 	EXP 	text_2: autoDraw = False
+93.7450 	EXP 	Fixation_Cross_2: autoDraw = False
+93.7450 	EXP 	T1Response_2: height = 0.05000000000000001
+93.7450 	EXP 	T1Response_2: height = 0.05000000000000001
+93.7450 	EXP 	T1Response_2: height = 0.05000000000000001
+93.7450 	EXP 	T1Response_2: text = 'Did you see the Webcam?'
+93.7450 	EXP 	T1Response_2: autoDraw = True
+94.2630 	DATA 	Keypress: right
+94.2921 	EXP 	T1Response_2: autoDraw = False
+94.2921 	EXP 	T2Response_2: autoDraw = True
+94.3776 	EXP 	New trial (rep=0, index=7): {'TrialType': 'AB', 'CondType': 'Lag5_T1P_T2A', 'Lag': 5, 'T1_PA': 'P', 'T2_PA': 'A', 'T1Loc': 6, 'T2Loc': 11, 'PreDistractor': 5, 'PostDistractor': 5, 'TotalImg': 16, 'cueWord': 'Wheat', 'T1cue': 'Did you see the Wheat?', 'StimLength': 0.5, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'bottleopener01', 'Img2': 'dentalfloss03b', 'Img3': 'cooler01', 'Img4': 'icecreamcone01a', 'Img5': 'cup01', 'Img6': 'wheat', 'Img7': 'pencilsharpener02a', 'Img8': 'plasticbasket01a', 'Img9': 'toycar04', 'Img10': 'apricot', 'Img11': 'hairclip02', 'Img12': 'rock01a', 'Img13': 'honeydewmelon', 'Img14': 'antenna', 'Img15': 'blackberry', 'Img16': 'cardboardbox', 'Img17': 'blankImage', 'T1_Identity': 'wheat', 'Distractor1': 'bottleopener01', 'Distractor2': 'dentalfloss03b', 'Distractor3': 'cooler01', 'Distractor4': 'icecreamcone01a', 'Distractor5': 'cup01', 'Distractor6': 'paintcan01', 'Distractor7': 'pencilsharpener02a', 'Distractor8': 'plasticbasket01a', 'Distractor9': 'toycar04', 'Distractor10': 'apricot', 'Distractor11': 'hairclip02', 'Distractor12': 'rock01a', 'Distractor13': 'honeydewmelon', 'Distractor14': 'antenna', 'Distractor15': 'blackberry', 'Distractor16': 'cardboardbox'}
+94.4294 	DATA 	Keypress: left
+94.4317 	EXP 	T2Response_2: autoDraw = False
+94.4317 	EXP 	text_2: height = 0.05000000000000001
+94.4317 	EXP 	text_2: height = 0.05000000000000001
+94.4317 	EXP 	text_2: height = 0.05000000000000001
+94.4317 	EXP 	text_2: text = 'Wheat'
+94.4317 	EXP 	text_2: autoDraw = True
+95.4255 	EXP 	Fixation_Cross_2: autoDraw = True
+95.4420 	EXP 	text_2: autoDraw = False
+96.0605 	EXP 	Fixation_Cross_2: autoDraw = False
+97.8992 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+97.9105 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+97.9209 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+97.9314 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+97.9441 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+97.9608 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+97.9775 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+97.9941 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+98.0109 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+98.0279 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+98.0452 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+98.0612 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+98.0779 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+98.0945 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+98.1112 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+98.1280 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+98.1444 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+98.1611 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+98.1780 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+98.1946 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+98.2112 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+98.2278 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+98.2447 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+98.2612 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+98.2778 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+98.2949 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+98.3110 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+98.3273 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+98.3443 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+98.3612 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+98.3776 	DEPRECATION 	Couldn't find image resources\JPG\cup01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\cup01.jpg)
+104.1349 	EXP 	text_2: autoDraw = False
+104.1349 	EXP 	Fixation_Cross_2: autoDraw = False
+104.1349 	EXP 	T1Response_2: height = 0.05000000000000001
+104.1349 	EXP 	T1Response_2: height = 0.05000000000000001
+104.1349 	EXP 	T1Response_2: height = 0.05000000000000001
+104.1349 	EXP 	T1Response_2: text = 'Did you see the Wheat?'
+104.1349 	EXP 	T1Response_2: autoDraw = True
+104.5997 	DATA 	Keypress: right
+104.6087 	EXP 	T1Response_2: autoDraw = False
+104.6087 	EXP 	T2Response_2: autoDraw = True
+104.6971 	DATA 	Keypress: left
+104.7122 	EXP 	New trial (rep=0, index=8): {'TrialType': 'AB', 'CondType': 'Lag5_T1P_T2A', 'Lag': 5, 'T1_PA': 'P', 'T2_PA': 'A', 'T1Loc': 6, 'T2Loc': 11, 'PreDistractor': 5, 'PostDistractor': 5, 'TotalImg': 16, 'cueWord': 'bread', 'T1cue': 'Did you see the bread?', 'StimLength': 0.5, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'cleaver01', 'Img2': 'clipboard', 'Img3': 'dustpan', 'Img4': 'hikingshoe01', 'Img5': 'notebook03a', 'Img6': 'baguette01', 'Img7': 'playingcard', 'Img8': 'pliers02b', 'Img9': 'raisins', 'Img10': 'rollingpin01a', 'Img11': 'swimgoggles', 'Img12': 'wineglass01', 'Img13': 'fryingpan02a', 'Img14': 'safetypin', 'Img15': 'syringe01', 'Img16': 'thimble', 'Img17': 'blankImage', 'T1_Identity': 'baguette01', 'Distractor1': 'cleaver01', 'Distractor2': 'clipboard', 'Distractor3': 'dustpan', 'Distractor4': 'hikingshoe01', 'Distractor5': 'notebook03a', 'Distractor6': 'pillbottle', 'Distractor7': 'playingcard', 'Distractor8': 'pliers02b', 'Distractor9': 'raisins', 'Distractor10': 'rollingpin01a', 'Distractor11': 'swimgoggles', 'Distractor12': 'wineglass01', 'Distractor13': 'fryingpan02a', 'Distractor14': 'safetypin', 'Distractor15': 'syringe01', 'Distractor16': 'thimble'}
+104.7259 	EXP 	T2Response_2: autoDraw = False
+104.7259 	EXP 	text_2: height = 0.05000000000000001
+104.7259 	EXP 	text_2: height = 0.05000000000000001
+104.7259 	EXP 	text_2: height = 0.05000000000000001
+104.7259 	EXP 	text_2: text = 'bread'
+104.7259 	EXP 	text_2: autoDraw = True
+105.7253 	EXP 	text_2: autoDraw = False
+105.7253 	EXP 	Fixation_Cross_2: autoDraw = True
+106.3337 	EXP 	Fixation_Cross_2: autoDraw = False
+110.2620 	DEPRECATION 	Couldn't find image resources\JPG\raisins.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\raisins.jpg)
+110.2722 	DEPRECATION 	Couldn't find image resources\JPG\raisins.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\raisins.jpg)
+110.2818 	DEPRECATION 	Couldn't find image resources\JPG\raisins.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\raisins.jpg)
+110.2940 	DEPRECATION 	Couldn't find image resources\JPG\raisins.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\raisins.jpg)
+110.3105 	DEPRECATION 	Couldn't find image resources\JPG\raisins.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\raisins.jpg)
+110.3273 	DEPRECATION 	Couldn't find image resources\JPG\raisins.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\raisins.jpg)
+110.3440 	DEPRECATION 	Couldn't find image resources\JPG\raisins.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\raisins.jpg)
+110.3607 	DEPRECATION 	Couldn't find image resources\JPG\raisins.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\raisins.jpg)
+110.3771 	DEPRECATION 	Couldn't find image resources\JPG\raisins.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\raisins.jpg)
+110.4225 	DEPRECATION 	Couldn't find image resources\JPG\raisins.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\raisins.jpg)
+110.4356 	DEPRECATION 	Couldn't find image resources\JPG\raisins.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\raisins.jpg)
+110.4464 	DEPRECATION 	Couldn't find image resources\JPG\raisins.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\raisins.jpg)
+110.4577 	DEPRECATION 	Couldn't find image resources\JPG\raisins.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\raisins.jpg)
+110.4685 	DEPRECATION 	Couldn't find image resources\JPG\raisins.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\raisins.jpg)
+110.4779 	DEPRECATION 	Couldn't find image resources\JPG\raisins.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\raisins.jpg)
+110.4944 	DEPRECATION 	Couldn't find image resources\JPG\raisins.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\raisins.jpg)
+110.5110 	DEPRECATION 	Couldn't find image resources\JPG\raisins.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\raisins.jpg)
+110.5278 	DEPRECATION 	Couldn't find image resources\JPG\raisins.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\raisins.jpg)
+110.6260 	DEPRECATION 	Couldn't find image resources\JPG\raisins.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\raisins.jpg)
+110.6340 	DEPRECATION 	Couldn't find image resources\JPG\raisins.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\raisins.jpg)
+110.6436 	DEPRECATION 	Couldn't find image resources\JPG\raisins.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\raisins.jpg)
+110.6603 	DEPRECATION 	Couldn't find image resources\JPG\raisins.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\raisins.jpg)
+110.6777 	DEPRECATION 	Couldn't find image resources\JPG\raisins.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\raisins.jpg)
+110.6943 	DEPRECATION 	Couldn't find image resources\JPG\raisins.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\raisins.jpg)
+110.7110 	DEPRECATION 	Couldn't find image resources\JPG\raisins.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\raisins.jpg)
+114.4682 	EXP 	text_2: autoDraw = False
+114.4682 	EXP 	Fixation_Cross_2: autoDraw = False
+114.4682 	EXP 	T1Response_2: height = 0.05000000000000001
+114.4682 	EXP 	T1Response_2: height = 0.05000000000000001
+114.4682 	EXP 	T1Response_2: height = 0.05000000000000001
+114.4682 	EXP 	T1Response_2: text = 'Did you see the bread?'
+114.4682 	EXP 	T1Response_2: autoDraw = True
+114.9184 	DATA 	Keypress: right
+114.9255 	EXP 	T1Response_2: autoDraw = False
+114.9255 	EXP 	T2Response_2: autoDraw = True
+114.9973 	EXP 	New trial (rep=0, index=9): {'TrialType': 'AB', 'CondType': 'Lag5_T1A_T2P', 'Lag': 5, 'T1_PA': 'A', 'T2_PA': 'P', 'T1Loc': 6, 'T2Loc': 11, 'PreDistractor': 5, 'PostDistractor': 3, 'TotalImg': 14, 'cueWord': 'dog', 'T1cue': 'Did you see the dog?', 'StimLength': 0.5, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'bucket01a', 'Img2': 'doorlock', 'Img3': 'cookiecutter', 'Img4': 'fireextinguisher01', 'Img5': 'gluestick', 'Img6': 'highlighter02b', 'Img7': 'sportbag', 'Img8': 'spraybottle01', 'Img9': 'suitcase', 'Img10': 'thread02', 'Img11': 'blender', 'Img12': 'walnut01c', 'Img13': 'icecubetray01a', 'Img14': 'toycow', 'Img15': 'blankImage', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': None, 'Distractor1': 'bucket01a', 'Distractor2': 'doorlock', 'Distractor3': 'cookiecutter', 'Distractor4': 'fireextinguisher01', 'Distractor5': 'gluestick', 'Distractor6': 'highlighter02b', 'Distractor7': 'sportbag', 'Distractor8': 'spraybottle01', 'Distractor9': 'suitcase', 'Distractor10': 'thread02', 'Distractor11': 'vase02', 'Distractor12': 'walnut01c', 'Distractor13': 'icecubetray01a', 'Distractor14': 'toycow', 'Distractor15': 'tupperware03a', 'Distractor16': 'bracelet01'}
+115.0111 	DATA 	Keypress: left
+115.0137 	EXP 	T2Response_2: autoDraw = False
+115.0137 	EXP 	text_2: height = 0.05000000000000001
+115.0137 	EXP 	text_2: height = 0.05000000000000001
+115.0137 	EXP 	text_2: height = 0.05000000000000001
+115.0137 	EXP 	text_2: text = 'dog'
+115.0137 	EXP 	text_2: autoDraw = True
+116.0085 	EXP 	Fixation_Cross_2: autoDraw = True
+116.0252 	EXP 	text_2: autoDraw = False
+116.6445 	EXP 	Fixation_Cross_2: autoDraw = False
+123.0792 	DEPRECATION 	Couldn't find image resources\JPG\toycow.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toycow.jpg)
+123.0909 	DEPRECATION 	Couldn't find image resources\JPG\toycow.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toycow.jpg)
+123.1012 	DEPRECATION 	Couldn't find image resources\JPG\toycow.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toycow.jpg)
+123.1117 	DEPRECATION 	Couldn't find image resources\JPG\toycow.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toycow.jpg)
+123.1223 	DEPRECATION 	Couldn't find image resources\JPG\toycow.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toycow.jpg)
+123.1331 	DEPRECATION 	Couldn't find image resources\JPG\toycow.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toycow.jpg)
+123.1437 	DEPRECATION 	Couldn't find image resources\JPG\toycow.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toycow.jpg)
+123.1604 	DEPRECATION 	Couldn't find image resources\JPG\toycow.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toycow.jpg)
+123.1780 	DEPRECATION 	Couldn't find image resources\JPG\toycow.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toycow.jpg)
+123.1941 	DEPRECATION 	Couldn't find image resources\JPG\toycow.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toycow.jpg)
+123.2108 	DEPRECATION 	Couldn't find image resources\JPG\toycow.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toycow.jpg)
+123.2276 	DEPRECATION 	Couldn't find image resources\JPG\toycow.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toycow.jpg)
+123.2443 	DEPRECATION 	Couldn't find image resources\JPG\toycow.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toycow.jpg)
+123.2608 	DEPRECATION 	Couldn't find image resources\JPG\toycow.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toycow.jpg)
+123.2775 	DEPRECATION 	Couldn't find image resources\JPG\toycow.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toycow.jpg)
+123.2947 	DEPRECATION 	Couldn't find image resources\JPG\toycow.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toycow.jpg)
+123.3106 	DEPRECATION 	Couldn't find image resources\JPG\toycow.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toycow.jpg)
+123.3269 	DEPRECATION 	Couldn't find image resources\JPG\toycow.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toycow.jpg)
+123.3438 	DEPRECATION 	Couldn't find image resources\JPG\toycow.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toycow.jpg)
+123.3603 	DEPRECATION 	Couldn't find image resources\JPG\toycow.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toycow.jpg)
+123.3771 	DEPRECATION 	Couldn't find image resources\JPG\toycow.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toycow.jpg)
+123.3938 	DEPRECATION 	Couldn't find image resources\JPG\toycow.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toycow.jpg)
+123.4103 	DEPRECATION 	Couldn't find image resources\JPG\toycow.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toycow.jpg)
+123.4275 	DEPRECATION 	Couldn't find image resources\JPG\toycow.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toycow.jpg)
+123.4438 	DEPRECATION 	Couldn't find image resources\JPG\toycow.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toycow.jpg)
+123.4602 	DEPRECATION 	Couldn't find image resources\JPG\toycow.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toycow.jpg)
+123.4873 	DEPRECATION 	Couldn't find image resources\JPG\toycow.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toycow.jpg)
+123.4955 	DEPRECATION 	Couldn't find image resources\JPG\toycow.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toycow.jpg)
+123.5101 	DEPRECATION 	Couldn't find image resources\JPG\toycow.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toycow.jpg)
+123.5250 	EXP 	text_2: autoDraw = False
+123.5250 	EXP 	Fixation_Cross_2: autoDraw = False
+123.5250 	EXP 	T1Response_2: height = 0.05000000000000001
+123.5250 	EXP 	T1Response_2: height = 0.05000000000000001
+123.5250 	EXP 	T1Response_2: height = 0.05000000000000001
+123.5250 	EXP 	T1Response_2: text = 'Did you see the dog?'
+123.5250 	EXP 	T1Response_2: autoDraw = True
+123.9521 	DATA 	Keypress: right
+123.9587 	EXP 	T1Response_2: autoDraw = False
+123.9587 	EXP 	T2Response_2: autoDraw = True
+124.0466 	DATA 	Keypress: left
+124.0619 	EXP 	New trial (rep=0, index=10): {'TrialType': 'AB', 'CondType': 'Lag1_T1A_T2A', 'Lag': 1, 'T1_PA': 'A', 'T2_PA': 'A', 'T1Loc': 8, 'T2Loc': 9, 'PreDistractor': 7, 'PostDistractor': 3, 'TotalImg': 12, 'cueWord': 'Moose', 'T1cue': 'Did you see the Moose?', 'StimLength': 0.5, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'clothespin03b', 'Img2': 'corkscrew03a', 'Img3': 'drillbit03a', 'Img4': 'fusilli03a', 'Img5': 'needlenosepliers01', 'Img6': 'perfume01a', 'Img7': 'pistachio', 'Img8': 'scrubbingbrush05b', 'Img9': 'spatula03', 'Img10': 'toothpaste', 'Img11': 'toyelephant', 'Img12': 'toydinosaur', 'Img13': 'blankImage', 'Img14': 'blankImage', 'Img15': 'blankImage', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': None, 'Distractor1': 'clothespin03b', 'Distractor2': 'corkscrew03a', 'Distractor3': 'drillbit03a', 'Distractor4': 'fusilli03a', 'Distractor5': 'needlenosepliers01', 'Distractor6': 'perfume01a', 'Distractor7': 'pistachio', 'Distractor8': 'scrubbingbrush05b', 'Distractor9': 'spatula03', 'Distractor10': 'toothpaste', 'Distractor11': 'toyelephant', 'Distractor12': 'toydinosaur', 'Distractor13': 'waterbottle01b', 'Distractor14': 'highheelshoe01', 'Distractor15': 'mechanicalpencil02', 'Distractor16': 'relish'}
+124.0803 	EXP 	T2Response_2: autoDraw = False
+124.0803 	EXP 	text_2: height = 0.05000000000000001
+124.0803 	EXP 	text_2: height = 0.05000000000000001
+124.0803 	EXP 	text_2: height = 0.05000000000000001
+124.0803 	EXP 	text_2: text = 'Moose'
+124.0803 	EXP 	text_2: autoDraw = True
+125.0750 	EXP 	Fixation_Cross_2: autoDraw = True
+125.0917 	EXP 	text_2: autoDraw = False
+125.6833 	EXP 	Fixation_Cross_2: autoDraw = False
+130.1072 	DEPRECATION 	Couldn't find image resources\JPG\toothpaste.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toothpaste.jpg)
+130.1188 	DEPRECATION 	Couldn't find image resources\JPG\toothpaste.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toothpaste.jpg)
+130.1297 	DEPRECATION 	Couldn't find image resources\JPG\toothpaste.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toothpaste.jpg)
+130.1397 	DEPRECATION 	Couldn't find image resources\JPG\toothpaste.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toothpaste.jpg)
+130.1478 	DEPRECATION 	Couldn't find image resources\JPG\toothpaste.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toothpaste.jpg)
+130.1604 	DEPRECATION 	Couldn't find image resources\JPG\toothpaste.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toothpaste.jpg)
+130.1769 	DEPRECATION 	Couldn't find image resources\JPG\toothpaste.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toothpaste.jpg)
+130.1941 	DEPRECATION 	Couldn't find image resources\JPG\toothpaste.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toothpaste.jpg)
+130.2107 	DEPRECATION 	Couldn't find image resources\JPG\toothpaste.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toothpaste.jpg)
+130.2273 	DEPRECATION 	Couldn't find image resources\JPG\toothpaste.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toothpaste.jpg)
+130.2441 	DEPRECATION 	Couldn't find image resources\JPG\toothpaste.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toothpaste.jpg)
+130.2607 	DEPRECATION 	Couldn't find image resources\JPG\toothpaste.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toothpaste.jpg)
+130.2776 	DEPRECATION 	Couldn't find image resources\JPG\toothpaste.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toothpaste.jpg)
+130.2947 	DEPRECATION 	Couldn't find image resources\JPG\toothpaste.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toothpaste.jpg)
+130.3103 	DEPRECATION 	Couldn't find image resources\JPG\toothpaste.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toothpaste.jpg)
+130.3270 	DEPRECATION 	Couldn't find image resources\JPG\toothpaste.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toothpaste.jpg)
+130.3437 	DEPRECATION 	Couldn't find image resources\JPG\toothpaste.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toothpaste.jpg)
+130.4409 	DEPRECATION 	Couldn't find image resources\JPG\toothpaste.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toothpaste.jpg)
+130.4502 	DEPRECATION 	Couldn't find image resources\JPG\toothpaste.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toothpaste.jpg)
+130.4588 	DEPRECATION 	Couldn't find image resources\JPG\toothpaste.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toothpaste.jpg)
+130.4675 	DEPRECATION 	Couldn't find image resources\JPG\toothpaste.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toothpaste.jpg)
+130.4768 	DEPRECATION 	Couldn't find image resources\JPG\toothpaste.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toothpaste.jpg)
+130.4934 	DEPRECATION 	Couldn't find image resources\JPG\toothpaste.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toothpaste.jpg)
+130.5100 	DEPRECATION 	Couldn't find image resources\JPG\toothpaste.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toothpaste.jpg)
+130.5268 	DEPRECATION 	Couldn't find image resources\JPG\toothpaste.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toothpaste.jpg)
+130.5437 	DEPRECATION 	Couldn't find image resources\JPG\toothpaste.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toothpaste.jpg)
+130.5607 	DEPRECATION 	Couldn't find image resources\JPG\toothpaste.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toothpaste.jpg)
+130.5771 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+130.5938 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+130.6108 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+130.6273 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+130.6440 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+130.6608 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+130.6773 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+130.6950 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+130.7108 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+130.7273 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+130.7440 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+130.7608 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+130.7775 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+130.7941 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+130.8107 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+130.8275 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+130.8441 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+130.8607 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+130.8774 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+130.8942 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+130.9107 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+130.9271 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+130.9437 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+130.9607 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+130.9772 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+130.9940 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+131.0107 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+131.0274 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+131.0440 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+131.0607 	DEPRECATION 	Couldn't find image resources\JPG\toyelephant.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\toyelephant.jpg)
+131.7299 	EXP 	text_2: autoDraw = False
+131.7299 	EXP 	Fixation_Cross_2: autoDraw = False
+131.7299 	EXP 	T1Response_2: height = 0.05000000000000001
+131.7299 	EXP 	T1Response_2: height = 0.05000000000000001
+131.7299 	EXP 	T1Response_2: height = 0.05000000000000001
+131.7299 	EXP 	T1Response_2: text = 'Did you see the Moose?'
+131.7299 	EXP 	T1Response_2: autoDraw = True
+132.4289 	DATA 	Keypress: right
+132.4582 	EXP 	T1Response_2: autoDraw = False
+132.4582 	EXP 	T2Response_2: autoDraw = True
+132.5455 	DATA 	Keypress: left
+132.5611 	EXP 	New trial (rep=0, index=11): {'TrialType': 'AB', 'CondType': 'Lag5_T1A_T2A', 'Lag': 5, 'T1_PA': 'A', 'T2_PA': 'A', 'T1Loc': 6, 'T2Loc': 11, 'PreDistractor': 5, 'PostDistractor': 5, 'TotalImg': 16, 'cueWord': 'castle', 'T1cue': 'Did you see the castle?', 'StimLength': 0.5, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'tape02a', 'Img2': 'englishmuffin', 'Img3': 'flask', 'Img4': 'ladle02a', 'Img5': 'deskchair01', 'Img6': 'peach01', 'Img7': 'plasticflower01a', 'Img8': 'squeegee01b', 'Img9': 'telephone01b', 'Img10': 'whisk', 'Img11': 'lunchbox01', 'Img12': 'syringe02', 'Img13': 'baguette01', 'Img14': 'bicyclehelmet', 'Img15': 'box01', 'Img16': 'coffeepot03a', 'Img17': 'blankImage', 'T1_Identity': None, 'Distractor1': 'tape02a', 'Distractor2': 'englishmuffin', 'Distractor3': 'flask', 'Distractor4': 'ladle02a', 'Distractor5': 'deskchair01', 'Distractor6': 'peach01', 'Distractor7': 'plasticflower01a', 'Distractor8': 'squeegee01b', 'Distractor9': 'telephone01b', 'Distractor10': 'whisk', 'Distractor11': 'lunchbox01', 'Distractor12': 'syringe02', 'Distractor13': 'baguette01', 'Distractor14': 'bicyclehelmet', 'Distractor15': 'box01', 'Distractor16': 'coffeepot03a'}
+132.5942 	EXP 	T2Response_2: autoDraw = False
+132.5942 	EXP 	text_2: height = 0.05000000000000001
+132.5942 	EXP 	text_2: height = 0.05000000000000001
+132.5942 	EXP 	text_2: height = 0.05000000000000001
+132.5942 	EXP 	text_2: text = 'castle'
+132.5942 	EXP 	text_2: autoDraw = True
+133.5916 	EXP 	Fixation_Cross_2: autoDraw = True
+133.6084 	EXP 	text_2: autoDraw = False
+134.2269 	EXP 	Fixation_Cross_2: autoDraw = False
+136.0953 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+136.1067 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+136.1154 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+136.1274 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+136.1438 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+136.1605 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+136.1773 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+136.1940 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+136.2105 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+136.2273 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+136.2440 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+136.2607 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+136.2773 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+136.2945 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+136.3113 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+136.3268 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+136.3432 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+136.3601 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+136.3774 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+136.3936 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+136.4101 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+136.4274 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+136.4434 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+136.4598 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+136.4773 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+136.4941 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+136.5106 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+136.5272 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+136.5440 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+136.5606 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+137.0749 	DEPRECATION 	Couldn't find image resources\JPG\plasticflower01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\plasticflower01a.jpg)
+137.0829 	DEPRECATION 	Couldn't find image resources\JPG\plasticflower01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\plasticflower01a.jpg)
+137.0940 	DEPRECATION 	Couldn't find image resources\JPG\plasticflower01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\plasticflower01a.jpg)
+137.1107 	DEPRECATION 	Couldn't find image resources\JPG\plasticflower01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\plasticflower01a.jpg)
+137.1273 	DEPRECATION 	Couldn't find image resources\JPG\plasticflower01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\plasticflower01a.jpg)
+137.1440 	DEPRECATION 	Couldn't find image resources\JPG\plasticflower01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\plasticflower01a.jpg)
+137.1607 	DEPRECATION 	Couldn't find image resources\JPG\plasticflower01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\plasticflower01a.jpg)
+137.1773 	DEPRECATION 	Couldn't find image resources\JPG\plasticflower01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\plasticflower01a.jpg)
+137.1940 	DEPRECATION 	Couldn't find image resources\JPG\plasticflower01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\plasticflower01a.jpg)
+137.2107 	DEPRECATION 	Couldn't find image resources\JPG\plasticflower01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\plasticflower01a.jpg)
+137.2272 	DEPRECATION 	Couldn't find image resources\JPG\plasticflower01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\plasticflower01a.jpg)
+137.2440 	DEPRECATION 	Couldn't find image resources\JPG\plasticflower01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\plasticflower01a.jpg)
+137.2607 	DEPRECATION 	Couldn't find image resources\JPG\plasticflower01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\plasticflower01a.jpg)
+137.2773 	DEPRECATION 	Couldn't find image resources\JPG\plasticflower01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\plasticflower01a.jpg)
+137.3434 	DEPRECATION 	Couldn't find image resources\JPG\plasticflower01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\plasticflower01a.jpg)
+137.3519 	DEPRECATION 	Couldn't find image resources\JPG\plasticflower01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\plasticflower01a.jpg)
+137.3608 	DEPRECATION 	Couldn't find image resources\JPG\plasticflower01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\plasticflower01a.jpg)
+137.3767 	DEPRECATION 	Couldn't find image resources\JPG\plasticflower01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\plasticflower01a.jpg)
+137.3934 	DEPRECATION 	Couldn't find image resources\JPG\plasticflower01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\plasticflower01a.jpg)
+137.4099 	DEPRECATION 	Couldn't find image resources\JPG\plasticflower01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\plasticflower01a.jpg)
+137.4269 	DEPRECATION 	Couldn't find image resources\JPG\plasticflower01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\plasticflower01a.jpg)
+137.4441 	DEPRECATION 	Couldn't find image resources\JPG\plasticflower01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\plasticflower01a.jpg)
+137.4608 	DEPRECATION 	Couldn't find image resources\JPG\plasticflower01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\plasticflower01a.jpg)
+137.4772 	DEPRECATION 	Couldn't find image resources\JPG\plasticflower01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\plasticflower01a.jpg)
+137.4940 	DEPRECATION 	Couldn't find image resources\JPG\plasticflower01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\plasticflower01a.jpg)
+137.5107 	DEPRECATION 	Couldn't find image resources\JPG\plasticflower01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\plasticflower01a.jpg)
+137.5274 	DEPRECATION 	Couldn't find image resources\JPG\plasticflower01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\plasticflower01a.jpg)
+137.5439 	DEPRECATION 	Couldn't find image resources\JPG\plasticflower01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\plasticflower01a.jpg)
+137.5607 	DEPRECATION 	Couldn't find image resources\JPG\plasticflower01a.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\plasticflower01a.jpg)
+139.1564 	DEPRECATION 	Couldn't find image resources\JPG\lunchbox01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\lunchbox01.jpg)
+139.1643 	DEPRECATION 	Couldn't find image resources\JPG\lunchbox01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\lunchbox01.jpg)
+139.1729 	DEPRECATION 	Couldn't find image resources\JPG\lunchbox01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\lunchbox01.jpg)
+139.1832 	DEPRECATION 	Couldn't find image resources\JPG\lunchbox01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\lunchbox01.jpg)
+139.1932 	DEPRECATION 	Couldn't find image resources\JPG\lunchbox01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\lunchbox01.jpg)
+139.2101 	DEPRECATION 	Couldn't find image resources\JPG\lunchbox01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\lunchbox01.jpg)
+139.2268 	DEPRECATION 	Couldn't find image resources\JPG\lunchbox01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\lunchbox01.jpg)
+139.2434 	DEPRECATION 	Couldn't find image resources\JPG\lunchbox01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\lunchbox01.jpg)
+139.2606 	DEPRECATION 	Couldn't find image resources\JPG\lunchbox01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\lunchbox01.jpg)
+139.2772 	DEPRECATION 	Couldn't find image resources\JPG\lunchbox01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\lunchbox01.jpg)
+139.2938 	DEPRECATION 	Couldn't find image resources\JPG\lunchbox01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\lunchbox01.jpg)
+139.3108 	DEPRECATION 	Couldn't find image resources\JPG\lunchbox01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\lunchbox01.jpg)
+139.3269 	DEPRECATION 	Couldn't find image resources\JPG\lunchbox01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\lunchbox01.jpg)
+139.3433 	DEPRECATION 	Couldn't find image resources\JPG\lunchbox01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\lunchbox01.jpg)
+139.3599 	DEPRECATION 	Couldn't find image resources\JPG\lunchbox01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\lunchbox01.jpg)
+139.3770 	DEPRECATION 	Couldn't find image resources\JPG\lunchbox01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\lunchbox01.jpg)
+139.3933 	DEPRECATION 	Couldn't find image resources\JPG\lunchbox01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\lunchbox01.jpg)
+139.4108 	DEPRECATION 	Couldn't find image resources\JPG\lunchbox01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\lunchbox01.jpg)
+139.4272 	DEPRECATION 	Couldn't find image resources\JPG\lunchbox01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\lunchbox01.jpg)
+139.4436 	DEPRECATION 	Couldn't find image resources\JPG\lunchbox01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\lunchbox01.jpg)
+139.4609 	DEPRECATION 	Couldn't find image resources\JPG\lunchbox01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\lunchbox01.jpg)
+139.4783 	DEPRECATION 	Couldn't find image resources\JPG\lunchbox01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\lunchbox01.jpg)
+139.4940 	DEPRECATION 	Couldn't find image resources\JPG\lunchbox01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\lunchbox01.jpg)
+139.5099 	DEPRECATION 	Couldn't find image resources\JPG\lunchbox01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\lunchbox01.jpg)
+139.5273 	DEPRECATION 	Couldn't find image resources\JPG\lunchbox01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\lunchbox01.jpg)
+139.5439 	DEPRECATION 	Couldn't find image resources\JPG\lunchbox01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\lunchbox01.jpg)
+139.5605 	DEPRECATION 	Couldn't find image resources\JPG\lunchbox01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\lunchbox01.jpg)
+140.6580 	DEPRECATION 	Couldn't find image resources\JPG\bicyclehelmet.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\bicyclehelmet.jpg)
+140.7093 	DEPRECATION 	Couldn't find image resources\JPG\bicyclehelmet.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\bicyclehelmet.jpg)
+140.7176 	DEPRECATION 	Couldn't find image resources\JPG\bicyclehelmet.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\bicyclehelmet.jpg)
+140.7266 	DEPRECATION 	Couldn't find image resources\JPG\bicyclehelmet.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\bicyclehelmet.jpg)
+140.7438 	DEPRECATION 	Couldn't find image resources\JPG\bicyclehelmet.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\bicyclehelmet.jpg)
+140.7605 	DEPRECATION 	Couldn't find image resources\JPG\bicyclehelmet.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\bicyclehelmet.jpg)
+140.7776 	DEPRECATION 	Couldn't find image resources\JPG\bicyclehelmet.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\bicyclehelmet.jpg)
+140.7938 	DEPRECATION 	Couldn't find image resources\JPG\bicyclehelmet.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\bicyclehelmet.jpg)
+140.8105 	DEPRECATION 	Couldn't find image resources\JPG\bicyclehelmet.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\bicyclehelmet.jpg)
+140.8272 	DEPRECATION 	Couldn't find image resources\JPG\bicyclehelmet.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\bicyclehelmet.jpg)
+140.8439 	DEPRECATION 	Couldn't find image resources\JPG\bicyclehelmet.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\bicyclehelmet.jpg)
+140.8605 	DEPRECATION 	Couldn't find image resources\JPG\bicyclehelmet.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\bicyclehelmet.jpg)
+140.8772 	DEPRECATION 	Couldn't find image resources\JPG\bicyclehelmet.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\bicyclehelmet.jpg)
+140.8944 	DEPRECATION 	Couldn't find image resources\JPG\bicyclehelmet.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\bicyclehelmet.jpg)
+140.9105 	DEPRECATION 	Couldn't find image resources\JPG\bicyclehelmet.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\bicyclehelmet.jpg)
+140.9272 	DEPRECATION 	Couldn't find image resources\JPG\bicyclehelmet.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\bicyclehelmet.jpg)
+140.9439 	DEPRECATION 	Couldn't find image resources\JPG\bicyclehelmet.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\bicyclehelmet.jpg)
+140.9606 	DEPRECATION 	Couldn't find image resources\JPG\bicyclehelmet.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\bicyclehelmet.jpg)
+140.9773 	DEPRECATION 	Couldn't find image resources\JPG\bicyclehelmet.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\bicyclehelmet.jpg)
+140.9939 	DEPRECATION 	Couldn't find image resources\JPG\bicyclehelmet.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\bicyclehelmet.jpg)
+141.0105 	DEPRECATION 	Couldn't find image resources\JPG\bicyclehelmet.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\bicyclehelmet.jpg)
+141.0271 	DEPRECATION 	Couldn't find image resources\JPG\bicyclehelmet.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\bicyclehelmet.jpg)
+141.0440 	DEPRECATION 	Couldn't find image resources\JPG\bicyclehelmet.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\bicyclehelmet.jpg)
+141.0605 	DEPRECATION 	Couldn't find image resources\JPG\bicyclehelmet.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\bicyclehelmet.jpg)
+141.0774 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.0939 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.1114 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.1271 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.1438 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.1607 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.1773 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.1938 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.2104 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.2271 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.2438 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.2605 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.2772 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.2938 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.3108 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.3268 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.3436 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.3602 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.3766 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.3938 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.4099 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.4266 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.4438 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.4606 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.4772 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.4932 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.5105 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.5271 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.5438 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.5605 	DEPRECATION 	Couldn't find image resources\JPG\box01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\box01.jpg)
+141.9633 	DATA 	Keypress: right
+142.2435 	EXP 	text_2: autoDraw = False
+142.2435 	EXP 	Fixation_Cross_2: autoDraw = False
+142.2435 	EXP 	T1Response_2: height = 0.05000000000000001
+142.2435 	EXP 	T1Response_2: height = 0.05000000000000001
+142.2435 	EXP 	T1Response_2: height = 0.05000000000000001
+142.2435 	EXP 	T1Response_2: text = 'Did you see the castle?'
+142.2435 	EXP 	T1Response_2: autoDraw = True
+142.5964 	DATA 	Keypress: right
+142.6248 	EXP 	T1Response_2: autoDraw = False
+142.6248 	EXP 	T2Response_2: autoDraw = True
+142.7300 	DATA 	Keypress: left
+142.7581 	EXP 	T2Response_2: autoDraw = False
+142.7581 	EXP 	text: autoDraw = True
+148.2907 	EXP 	Imported Condition_Spreadsheet.xlsx as conditions, 468 conditions, 49 params
+148.3026 	EXP 	Created sequence: sequential, trialTypes=468, nReps=1, seed=None
+148.3039 	EXP 	New trial (rep=0, index=0): {'TrialType': 'AB', 'CondType': 'Lag1_T1P_T2P', 'Lag': 1, 'T1_PA': 'P', 'T2_PA': 'P', 'T1Loc': 8, 'T2Loc': 9, 'PreDistractor': 7, 'PostDistractor': 5, 'TotalImg': 14, 'cueWord': 'giraffe', 'T1cue': 'Did you see the giraffe?', 'StimLength': 0.01, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'pencil01', 'Img2': 'foosballtable', 'Img3': 'banana01', 'Img4': 'lipstick02a', 'Img5': 'toaster01', 'Img6': 'grape01', 'Img7': 'key01', 'Img8': 'giraffe', 'Img9': 'blender', 'Img10': 'pineapple01a', 'Img11': 'strawberry', 'Img12': 'teabag', 'Img13': 'dandelion', 'Img14': 'paintbrush01', 'Img15': 'blankImage', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'giraffe', 'Distractor1': 'pencil01', 'Distractor2': 'foosballtable', 'Distractor3': 'banana01', 'Distractor4': 'lipstick02a', 'Distractor5': 'toaster01', 'Distractor6': 'grape01', 'Distractor7': 'key01', 'Distractor8': 'medal02b', 'Distractor9': 'mushroom01', 'Distractor10': 'pineapple01a', 'Distractor11': 'strawberry', 'Distractor12': 'teabag', 'Distractor13': 'dandelion', 'Distractor14': 'paintbrush01', 'Distractor15': 'brick', 'Distractor16': 'sewingmachine01a'}
+148.3109 	DATA 	Keypress: space
+148.3113 	DATA 	Keypress: space
+148.3139 	EXP 	text: autoDraw = False
+148.3139 	EXP 	text_1: height = 0.05000000000000001
+148.3139 	EXP 	text_1: height = 0.05000000000000001
+148.3139 	EXP 	text_1: height = 0.05000000000000001
+148.3139 	EXP 	text_1: text = 'giraffe'
+148.3139 	EXP 	text_1: autoDraw = True
+149.2915 	EXP 	Fixation_Cross: autoDraw = True
+149.3247 	EXP 	text_1: autoDraw = False
+149.9661 	EXP 	Fixation_Cross: autoDraw = False
+149.9661 	EXP 	Rapid_Image_Present: autoDraw = True
+150.0783 	EXP 	text_1: autoDraw = False
+150.0783 	EXP 	Fixation_Cross: autoDraw = False
+150.0783 	EXP 	Rapid_Image_Present: autoDraw = False
+150.0783 	EXP 	T1Response: height = 0.05000000000000001
+150.0783 	EXP 	T1Response: height = 0.05000000000000001
+150.0783 	EXP 	T1Response: height = 0.05000000000000001
+150.0783 	EXP 	T1Response: text = 'Did you see the giraffe?'
+150.0783 	EXP 	T1Response: autoDraw = True
+150.9675 	DATA 	Keypress: right
+150.9754 	EXP 	T1Response: autoDraw = False
+150.9754 	EXP 	T2Response: autoDraw = True
+151.1307 	EXP 	New trial (rep=0, index=1): {'TrialType': 'AB', 'CondType': 'Lag1_T1P_T2P', 'Lag': 1, 'T1_PA': 'P', 'T2_PA': 'P', 'T1Loc': 6, 'T2Loc': 7, 'PreDistractor': 5, 'PostDistractor': 5, 'TotalImg': 12, 'cueWord': 'owl', 'T1cue': 'Did you see the owl?', 'StimLength': 0.01, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'paintbrush01', 'Img2': 'eraser', 'Img3': 'medal02b', 'Img4': 'hammer01', 'Img5': 'speaker04', 'Img6': 'greathornowl', 'Img7': 'blender', 'Img8': 'comb02a', 'Img9': 'plate01b', 'Img10': 'clock01a', 'Img11': 'button01', 'Img12': 'globe', 'Img13': 'blankImage', 'Img14': 'blankImage', 'Img15': 'blankImage', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'greathornowl', 'Distractor1': 'paintbrush01', 'Distractor2': 'eraser', 'Distractor3': 'medal02b', 'Distractor4': 'hammer01', 'Distractor5': 'speaker04', 'Distractor6': 'balloon01b', 'Distractor7': 'spoon01', 'Distractor8': 'comb02a', 'Distractor9': 'plate01b', 'Distractor10': 'clock01a', 'Distractor11': 'button01', 'Distractor12': 'globe', 'Distractor13': 'sunglasses04', 'Distractor14': 'pen04b', 'Distractor15': 'foosballtable', 'Distractor16': 'lighter01'}
+151.1424 	DATA 	Keypress: right
+151.1449 	EXP 	T2Response: autoDraw = False
+151.1449 	EXP 	text_1: height = 0.05000000000000001
+151.1449 	EXP 	text_1: height = 0.05000000000000001
+151.1449 	EXP 	text_1: height = 0.05000000000000001
+151.1449 	EXP 	text_1: text = 'owl'
+151.1449 	EXP 	text_1: autoDraw = True
+152.1416 	EXP 	Fixation_Cross: autoDraw = True
+152.1581 	EXP 	text_1: autoDraw = False
+152.7396 	EXP 	Fixation_Cross: autoDraw = False
+152.7396 	EXP 	Rapid_Image_Present: autoDraw = True
+153.0186 	EXP 	text_1: autoDraw = False
+153.0186 	EXP 	Fixation_Cross: autoDraw = False
+153.0186 	EXP 	Rapid_Image_Present: autoDraw = False
+153.0186 	EXP 	T1Response: height = 0.05000000000000001
+153.0186 	EXP 	T1Response: height = 0.05000000000000001
+153.0186 	EXP 	T1Response: height = 0.05000000000000001
+153.0186 	EXP 	T1Response: text = 'Did you see the owl?'
+153.0186 	EXP 	T1Response: autoDraw = True
+153.0800 	DATA 	Keypress: right
+153.0913 	EXP 	T1Response: autoDraw = False
+153.0913 	EXP 	T2Response: autoDraw = True
+153.2441 	EXP 	New trial (rep=0, index=2): {'TrialType': 'AB', 'CondType': 'Lag1_T1P_T2P', 'Lag': 1, 'T1_PA': 'P', 'T2_PA': 'P', 'T1Loc': 6, 'T2Loc': 7, 'PreDistractor': 5, 'PostDistractor': 3, 'TotalImg': 10, 'cueWord': 'handcuffs', 'T1cue': 'Did you see the handcuffs?', 'StimLength': 0.01, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'sewingmachine01a', 'Img2': 'scarf', 'Img3': 'carrot01', 'Img4': 'book01b', 'Img5': 'eraser', 'Img6': 'handcuffs', 'Img7': 'blender', 'Img8': 'lipstick02a', 'Img9': 'printer02', 'Img10': 'garlic01a', 'Img11': 'blankImage', 'Img12': 'blankImage', 'Img13': 'blankImage', 'Img14': 'blankImage', 'Img15': 'blankImage', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'handcuffs', 'Distractor1': 'sewingmachine01a', 'Distractor2': 'scarf', 'Distractor3': 'carrot01', 'Distractor4': 'book01b', 'Distractor5': 'eraser', 'Distractor6': 'watermelon01', 'Distractor7': 'plate01b', 'Distractor8': 'lipstick02a', 'Distractor9': 'printer02', 'Distractor10': 'garlic01a', 'Distractor11': 'envelope03a', 'Distractor12': 'binoculars01b', 'Distractor13': 'tomato01', 'Distractor14': 'candy', 'Distractor15': 'comb02a', 'Distractor16': 'iron01b'}
+153.2534 	DATA 	Keypress: right
+153.2579 	EXP 	T2Response: autoDraw = False
+153.2579 	EXP 	text_1: height = 0.05000000000000001
+153.2579 	EXP 	text_1: height = 0.05000000000000001
+153.2579 	EXP 	text_1: height = 0.05000000000000001
+153.2579 	EXP 	text_1: text = 'handcuffs'
+153.2579 	EXP 	text_1: autoDraw = True
+154.2414 	EXP 	Fixation_Cross: autoDraw = True
+154.2582 	EXP 	text_1: autoDraw = False
+154.8956 	EXP 	Fixation_Cross: autoDraw = False
+154.8956 	EXP 	Rapid_Image_Present: autoDraw = True
+155.0497 	EXP 	text_1: autoDraw = False
+155.0497 	EXP 	Fixation_Cross: autoDraw = False
+155.0497 	EXP 	Rapid_Image_Present: autoDraw = False
+155.0497 	EXP 	T1Response: height = 0.05000000000000001
+155.0497 	EXP 	T1Response: height = 0.05000000000000001
+155.0497 	EXP 	T1Response: height = 0.05000000000000001
+155.0497 	EXP 	T1Response: text = 'Did you see the handcuffs?'
+155.0497 	EXP 	T1Response: autoDraw = True
+155.4969 	DATA 	Keypress: right
+155.5079 	EXP 	T1Response: autoDraw = False
+155.5079 	EXP 	T2Response: autoDraw = True
+155.6616 	DATA 	Keypress: right
+155.6782 	EXP 	New trial (rep=0, index=3): {'TrialType': 'AB', 'CondType': 'Lag1_T1P_T2P', 'Lag': 1, 'T1_PA': 'P', 'T2_PA': 'P', 'T1Loc': 7, 'T2Loc': 8, 'PreDistractor': 6, 'PostDistractor': 5, 'TotalImg': 13, 'cueWord': 'horse', 'T1cue': 'Did you see the horse?', 'StimLength': 0.01, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'watermelon01', 'Img2': 'pencil01', 'Img3': 'microscope', 'Img4': 'blueberry01', 'Img5': 'computerkeyboard02', 'Img6': 'lamp04a', 'Img7': 'horse', 'Img8': 'blender', 'Img9': 'sock01a', 'Img10': 'key01', 'Img11': 'binoculars01b', 'Img12': 'cauliflower01', 'Img13': 'ashtray01', 'Img14': 'blankImage', 'Img15': 'blankImage', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'horse', 'Distractor1': 'watermelon01', 'Distractor2': 'pencil01', 'Distractor3': 'microscope', 'Distractor4': 'blueberry01', 'Distractor5': 'computerkeyboard02', 'Distractor6': 'lamp04a', 'Distractor7': 'eraser', 'Distractor8': 'clock01a', 'Distractor9': 'sock01a', 'Distractor10': 'key01', 'Distractor11': 'binoculars01b', 'Distractor12': 'cauliflower01', 'Distractor13': 'ashtray01', 'Distractor14': 'fork03c', 'Distractor15': 'cymbal', 'Distractor16': 'measuringcup01'}
+155.6943 	EXP 	T2Response: autoDraw = False
+155.6943 	EXP 	text_1: height = 0.05000000000000001
+155.6943 	EXP 	text_1: height = 0.05000000000000001
+155.6943 	EXP 	text_1: height = 0.05000000000000001
+155.6943 	EXP 	text_1: text = 'horse'
+155.6943 	EXP 	text_1: autoDraw = True
+156.6912 	EXP 	Fixation_Cross: autoDraw = True
+156.7079 	EXP 	text_1: autoDraw = False
+157.3373 	EXP 	Fixation_Cross: autoDraw = False
+157.3373 	EXP 	Rapid_Image_Present: autoDraw = True
+157.4781 	EXP 	text_1: autoDraw = False
+157.4781 	EXP 	Fixation_Cross: autoDraw = False
+157.4781 	EXP 	Rapid_Image_Present: autoDraw = False
+157.4781 	EXP 	T1Response: height = 0.05000000000000001
+157.4781 	EXP 	T1Response: height = 0.05000000000000001
+157.4781 	EXP 	T1Response: height = 0.05000000000000001
+157.4781 	EXP 	T1Response: text = 'Did you see the horse?'
+157.4781 	EXP 	T1Response: autoDraw = True
+157.8981 	DATA 	Keypress: right
+157.9079 	EXP 	T1Response: autoDraw = False
+157.9079 	EXP 	T2Response: autoDraw = True
+158.0620 	EXP 	New trial (rep=0, index=4): {'TrialType': 'AB', 'CondType': 'Lag1_T1P_T2P', 'Lag': 1, 'T1_PA': 'P', 'T2_PA': 'P', 'T1Loc': 6, 'T2Loc': 7, 'PreDistractor': 5, 'PostDistractor': 5, 'TotalImg': 12, 'cueWord': 'snowman', 'T1cue': 'Did you see the snowman?', 'StimLength': 0.01, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'comb02a', 'Img2': 'watch02a', 'Img3': 'scissors01', 'Img4': 'dice05a', 'Img5': 'tableknife02', 'Img6': 'snowman', 'Img7': 'blender', 'Img8': 'printer02', 'Img9': 'dandelion', 'Img10': 'spoon01', 'Img11': 'ashtray01', 'Img12': 'battery02b', 'Img13': 'blankImage', 'Img14': 'blankImage', 'Img15': 'blankImage', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'snowman', 'Distractor1': 'comb02a', 'Distractor2': 'watch02a', 'Distractor3': 'scissors01', 'Distractor4': 'dice05a', 'Distractor5': 'tableknife02', 'Distractor6': 'sponge01', 'Distractor7': 'pencil01', 'Distractor8': 'printer02', 'Distractor9': 'dandelion', 'Distractor10': 'spoon01', 'Distractor11': 'ashtray01', 'Distractor12': 'battery02b', 'Distractor13': 'cherry01', 'Distractor14': 'binoculars01b', 'Distractor15': 'belt02a', 'Distractor16': 'toaster01'}
+158.0750 	DATA 	Keypress: right
+158.0776 	EXP 	T2Response: autoDraw = False
+158.0776 	EXP 	text_1: height = 0.05000000000000001
+158.0776 	EXP 	text_1: height = 0.05000000000000001
+158.0776 	EXP 	text_1: height = 0.05000000000000001
+158.0776 	EXP 	text_1: text = 'snowman'
+158.0776 	EXP 	text_1: autoDraw = True
+159.0745 	EXP 	Fixation_Cross: autoDraw = True
+159.0911 	EXP 	text_1: autoDraw = False
+159.7000 	EXP 	Fixation_Cross: autoDraw = False
+159.7000 	EXP 	Rapid_Image_Present: autoDraw = True
+159.8452 	EXP 	text_1: autoDraw = False
+159.8452 	EXP 	Fixation_Cross: autoDraw = False
+159.8452 	EXP 	Rapid_Image_Present: autoDraw = False
+159.8452 	EXP 	T1Response: height = 0.05000000000000001
+159.8452 	EXP 	T1Response: height = 0.05000000000000001
+159.8452 	EXP 	T1Response: height = 0.05000000000000001
+159.8452 	EXP 	T1Response: text = 'Did you see the snowman?'
+159.8452 	EXP 	T1Response: autoDraw = True
+160.1647 	DATA 	Keypress: right
+160.1745 	EXP 	T1Response: autoDraw = False
+160.1745 	EXP 	T2Response: autoDraw = True
+160.3300 	DATA 	Keypress: right
+160.3447 	EXP 	New trial (rep=0, index=5): {'TrialType': 'AB', 'CondType': 'Lag1_T1P_T2P', 'Lag': 1, 'T1_PA': 'P', 'T2_PA': 'P', 'T1Loc': 5, 'T2Loc': 6, 'PreDistractor': 4, 'PostDistractor': 5, 'TotalImg': 11, 'cueWord': 'squirrel', 'T1cue': 'Did you see the squirrel?', 'StimLength': 0.01, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'pencil01', 'Img2': 'orange', 'Img3': 'clock01a', 'Img4': 'sponge01', 'Img5': 'squirrel', 'Img6': 'blender', 'Img7': 'lipstick02a', 'Img8': 'strawberry', 'Img9': 'book01b', 'Img10': 'mushroom01', 'Img11': 'envelope03a', 'Img12': 'blankImage', 'Img13': 'blankImage', 'Img14': 'blankImage', 'Img15': 'blankImage', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'squirrel', 'Distractor1': 'pencil01', 'Distractor2': 'orange', 'Distractor3': 'clock01a', 'Distractor4': 'sponge01', 'Distractor5': 'pear01', 'Distractor6': 'broccoli01a', 'Distractor7': 'lipstick02a', 'Distractor8': 'strawberry', 'Distractor9': 'book01b', 'Distractor10': 'mushroom01', 'Distractor11': 'envelope03a', 'Distractor12': 'candy', 'Distractor13': 'calculator01', 'Distractor14': 'dandelion', 'Distractor15': 'lighter01', 'Distractor16': 'leaf02a'}
+160.3589 	EXP 	T2Response: autoDraw = False
+160.3589 	EXP 	text_1: height = 0.05000000000000001
+160.3589 	EXP 	text_1: height = 0.05000000000000001
+160.3589 	EXP 	text_1: height = 0.05000000000000001
+160.3589 	EXP 	text_1: text = 'squirrel'
+160.3589 	EXP 	text_1: autoDraw = True
+161.3578 	EXP 	Fixation_Cross: autoDraw = True
+161.3745 	EXP 	text_1: autoDraw = False
+161.9765 	EXP 	Fixation_Cross: autoDraw = False
+161.9765 	EXP 	Rapid_Image_Present: autoDraw = True
+162.1188 	EXP 	text_1: autoDraw = False
+162.1188 	EXP 	Fixation_Cross: autoDraw = False
+162.1188 	EXP 	Rapid_Image_Present: autoDraw = False
+162.1188 	EXP 	T1Response: height = 0.05000000000000001
+162.1188 	EXP 	T1Response: height = 0.05000000000000001
+162.1188 	EXP 	T1Response: height = 0.05000000000000001
+162.1188 	EXP 	T1Response: text = 'Did you see the squirrel?'
+162.1188 	EXP 	T1Response: autoDraw = True
+162.5467 	DATA 	Keypress: right
+162.5578 	EXP 	T1Response: autoDraw = False
+162.5578 	EXP 	T2Response: autoDraw = True
+162.7127 	EXP 	New trial (rep=0, index=6): {'TrialType': 'AB', 'CondType': 'Lag1_T1P_T2P', 'Lag': 1, 'T1_PA': 'P', 'T2_PA': 'P', 'T1Loc': 7, 'T2Loc': 8, 'PreDistractor': 6, 'PostDistractor': 4, 'TotalImg': 12, 'cueWord': 'zipper', 'T1cue': 'Did you see the zipper?', 'StimLength': 0.01, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'sandal', 'Img2': 'fan', 'Img3': 'printer02', 'Img4': 'cellphone', 'Img5': 'mushroom01', 'Img6': 'candle08b', 'Img7': 'zipper', 'Img8': 'blender', 'Img9': 'lamp04a', 'Img10': 'hammer01', 'Img11': 'teabag', 'Img12': 'stapler03a', 'Img13': 'blankImage', 'Img14': 'blankImage', 'Img15': 'blankImage', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'zipper', 'Distractor1': 'sandal', 'Distractor2': 'fan', 'Distractor3': 'printer02', 'Distractor4': 'cellphone', 'Distractor5': 'mushroom01', 'Distractor6': 'candle08b', 'Distractor7': 'lipstick02a', 'Distractor8': 'celery', 'Distractor9': 'lamp04a', 'Distractor10': 'hammer01', 'Distractor11': 'teabag', 'Distractor12': 'stapler03a', 'Distractor13': 'globe', 'Distractor14': 'computerkeyboard02', 'Distractor15': 'comb02a', 'Distractor16': 'screw02'}
+162.7464 	DATA 	Keypress: right
+162.7489 	EXP 	T2Response: autoDraw = False
+162.7489 	EXP 	text_1: height = 0.05000000000000001
+162.7489 	EXP 	text_1: height = 0.05000000000000001
+162.7489 	EXP 	text_1: height = 0.05000000000000001
+162.7489 	EXP 	text_1: text = 'zipper'
+162.7489 	EXP 	text_1: autoDraw = True
+163.7411 	EXP 	Fixation_Cross: autoDraw = True
+163.7577 	EXP 	text_1: autoDraw = False
+164.3719 	EXP 	Fixation_Cross: autoDraw = False
+164.3719 	EXP 	Rapid_Image_Present: autoDraw = True
+164.5216 	EXP 	text_1: autoDraw = False
+164.5216 	EXP 	Fixation_Cross: autoDraw = False
+164.5216 	EXP 	Rapid_Image_Present: autoDraw = False
+164.5216 	EXP 	T1Response: height = 0.05000000000000001
+164.5216 	EXP 	T1Response: height = 0.05000000000000001
+164.5216 	EXP 	T1Response: height = 0.05000000000000001
+164.5216 	EXP 	T1Response: text = 'Did you see the zipper?'
+164.5216 	EXP 	T1Response: autoDraw = True
+165.0649 	DATA 	Keypress: right
+165.0745 	EXP 	T1Response: autoDraw = False
+165.0745 	EXP 	T2Response: autoDraw = True
+165.2285 	EXP 	New trial (rep=0, index=7): {'TrialType': 'AB', 'CondType': 'Lag1_T1P_T2P', 'Lag': 1, 'T1_PA': 'P', 'T2_PA': 'P', 'T1Loc': 8, 'T2Loc': 9, 'PreDistractor': 7, 'PostDistractor': 4, 'TotalImg': 13, 'cueWord': 'bowling ball', 'T1cue': 'Did you see the bowling ball?', 'StimLength': 0.01, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'dandelion', 'Img2': 'pineapple01a', 'Img3': 'broom01', 'Img4': 'pen04b', 'Img5': 'sock01a', 'Img6': 'sandal', 'Img7': 'foosballtable', 'Img8': 'bowlingball', 'Img9': 'blender', 'Img10': 'toothbrush03b', 'Img11': 'celery', 'Img12': 'candle08b', 'Img13': 'tennisball01b', 'Img14': 'blankImage', 'Img15': 'blankImage', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'bowlingball', 'Distractor1': 'dandelion', 'Distractor2': 'pineapple01a', 'Distractor3': 'broom01', 'Distractor4': 'pen04b', 'Distractor5': 'sock01a', 'Distractor6': 'sandal', 'Distractor7': 'foosballtable', 'Distractor8': 'battery02b', 'Distractor9': 'stapler03a', 'Distractor10': 'toothbrush03b', 'Distractor11': 'celery', 'Distractor12': 'candle08b', 'Distractor13': 'tennisball01b', 'Distractor14': 'lamp04a', 'Distractor15': 'pear01', 'Distractor16': 'teabag'}
+165.2474 	DATA 	Keypress: right
+165.2500 	EXP 	T2Response: autoDraw = False
+165.2500 	EXP 	text_1: height = 0.05000000000000001
+165.2500 	EXP 	text_1: height = 0.05000000000000001
+165.2500 	EXP 	text_1: height = 0.05000000000000001
+165.2500 	EXP 	text_1: text = 'bowling ball'
+165.2500 	EXP 	text_1: autoDraw = True
+166.2414 	EXP 	Fixation_Cross: autoDraw = True
+166.2579 	EXP 	text_1: autoDraw = False
+166.8638 	EXP 	Fixation_Cross: autoDraw = False
+166.8638 	EXP 	Rapid_Image_Present: autoDraw = True
+167.0275 	EXP 	text_1: autoDraw = False
+167.0275 	EXP 	Fixation_Cross: autoDraw = False
+167.0275 	EXP 	Rapid_Image_Present: autoDraw = False
+167.0275 	EXP 	T1Response: height = 0.05000000000000001
+167.0275 	EXP 	T1Response: height = 0.05000000000000001
+167.0275 	EXP 	T1Response: height = 0.05000000000000001
+167.0275 	EXP 	T1Response: text = 'Did you see the bowling ball?'
+167.0275 	EXP 	T1Response: autoDraw = True
+167.4965 	DATA 	Keypress: right
+167.5078 	EXP 	T1Response: autoDraw = False
+167.5078 	EXP 	T2Response: autoDraw = True
+167.6629 	DATA 	Keypress: right
+167.6779 	EXP 	New trial (rep=0, index=8): {'TrialType': 'AB', 'CondType': 'Lag1_T1P_T2P', 'Lag': 1, 'T1_PA': 'P', 'T2_PA': 'P', 'T1Loc': 6, 'T2Loc': 7, 'PreDistractor': 5, 'PostDistractor': 4, 'TotalImg': 11, 'cueWord': 'bowling pin', 'T1cue': 'Did you see the bowling pin?', 'StimLength': 0.01, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'strawberry', 'Img2': 'leaf02a', 'Img3': 'clock04', 'Img4': 'candle01', 'Img5': 'avocado01', 'Img6': 'bowlingpin', 'Img7': 'blender', 'Img8': 'brownsugar', 'Img9': 'ring01', 'Img10': 'lemon02', 'Img11': 'fork03c', 'Img12': 'blankImage', 'Img13': 'blankImage', 'Img14': 'blankImage', 'Img15': 'blankImage', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'bowlingpin', 'Distractor1': 'strawberry', 'Distractor2': 'leaf02a', 'Distractor3': 'clock04', 'Distractor4': 'candle01', 'Distractor5': 'avocado01', 'Distractor6': 'paintbrush01', 'Distractor7': 'orange', 'Distractor8': 'brownsugar', 'Distractor9': 'ring01', 'Distractor10': 'lemon02', 'Distractor11': 'fork03c', 'Distractor12': 'scissors01', 'Distractor13': 'cauliflower01', 'Distractor14': 'tableknife02', 'Distractor15': 'tennisball01b', 'Distractor16': 'thermometer02b'}
+167.6930 	EXP 	T2Response: autoDraw = False
+167.6930 	EXP 	text_1: height = 0.05000000000000001
+167.6930 	EXP 	text_1: height = 0.05000000000000001
+167.6930 	EXP 	text_1: height = 0.05000000000000001
+167.6930 	EXP 	text_1: text = 'bowling pin'
+167.6930 	EXP 	text_1: autoDraw = True
+168.6913 	EXP 	Fixation_Cross: autoDraw = True
+168.7079 	EXP 	text_1: autoDraw = False
+169.3358 	EXP 	Fixation_Cross: autoDraw = False
+169.3358 	EXP 	Rapid_Image_Present: autoDraw = True
+169.4547 	EXP 	text_1: autoDraw = False
+169.4547 	EXP 	Fixation_Cross: autoDraw = False
+169.4547 	EXP 	Rapid_Image_Present: autoDraw = False
+169.4547 	EXP 	T1Response: height = 0.05000000000000001
+169.4547 	EXP 	T1Response: height = 0.05000000000000001
+169.4547 	EXP 	T1Response: height = 0.05000000000000001
+169.4547 	EXP 	T1Response: text = 'Did you see the bowling pin?'
+169.4547 	EXP 	T1Response: autoDraw = True
+169.7965 	DATA 	Keypress: right
+169.8077 	EXP 	T1Response: autoDraw = False
+169.8077 	EXP 	T2Response: autoDraw = True
+169.9636 	DATA 	Keypress: right
+169.9778 	EXP 	New trial (rep=0, index=9): {'TrialType': 'AB', 'CondType': 'Lag1_T1P_T2P', 'Lag': 1, 'T1_PA': 'P', 'T2_PA': 'P', 'T1Loc': 5, 'T2Loc': 6, 'PreDistractor': 4, 'PostDistractor': 5, 'TotalImg': 11, 'cueWord': 'candy cane', 'T1cue': 'Did you see the candy cane?', 'StimLength': 0.01, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'shirt02', 'Img2': 'match', 'Img3': 'screw02', 'Img4': 'foosballtable', 'Img5': 'candycane01a', 'Img6': 'blender', 'Img7': 'sewingmachine01a', 'Img8': 'watch02a', 'Img9': 'button01', 'Img10': 'comb02a', 'Img11': 'dice05a', 'Img12': 'blankImage', 'Img13': 'blankImage', 'Img14': 'blankImage', 'Img15': 'blankImage', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'candycane01a', 'Distractor1': 'shirt02', 'Distractor2': 'match', 'Distractor3': 'screw02', 'Distractor4': 'foosballtable', 'Distractor5': 'blueberry01', 'Distractor6': 'pineapple01a', 'Distractor7': 'sewingmachine01a', 'Distractor8': 'watch02a', 'Distractor9': 'button01', 'Distractor10': 'comb02a', 'Distractor11': 'dice05a', 'Distractor12': 'measuringcup01', 'Distractor13': 'lipstick02a', 'Distractor14': 'printer02', 'Distractor15': 'carrot01', 'Distractor16': 'watermelon01'}
+169.9928 	EXP 	T2Response: autoDraw = False
+169.9928 	EXP 	text_1: height = 0.05000000000000001
+169.9928 	EXP 	text_1: height = 0.05000000000000001
+169.9928 	EXP 	text_1: height = 0.05000000000000001
+169.9928 	EXP 	text_1: text = 'candy cane'
+169.9928 	EXP 	text_1: autoDraw = True
+170.9909 	EXP 	Fixation_Cross: autoDraw = True
+171.0077 	EXP 	text_1: autoDraw = False
+171.6266 	EXP 	Fixation_Cross: autoDraw = False
+171.6266 	EXP 	Rapid_Image_Present: autoDraw = True
+171.7737 	EXP 	text_1: autoDraw = False
+171.7737 	EXP 	Fixation_Cross: autoDraw = False
+171.7737 	EXP 	Rapid_Image_Present: autoDraw = False
+171.7737 	EXP 	T1Response: height = 0.05000000000000001
+171.7737 	EXP 	T1Response: height = 0.05000000000000001
+171.7737 	EXP 	T1Response: height = 0.05000000000000001
+171.7737 	EXP 	T1Response: text = 'Did you see the candy cane?'
+171.7737 	EXP 	T1Response: autoDraw = True
+172.1463 	DATA 	Keypress: right
+172.1744 	EXP 	T1Response: autoDraw = False
+172.1744 	EXP 	T2Response: autoDraw = True
+172.3293 	EXP 	New trial (rep=0, index=10): {'TrialType': 'AB', 'CondType': 'Lag1_T1P_T2P', 'Lag': 1, 'T1_PA': 'P', 'T2_PA': 'P', 'T1Loc': 5, 'T2Loc': 6, 'PreDistractor': 4, 'PostDistractor': 3, 'TotalImg': 9, 'cueWord': 'dolphin', 'T1cue': 'Did you see the dolphin?', 'StimLength': 0.01, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'coffeemaker', 'Img2': 'belt02a', 'Img3': 'rice', 'Img4': 'screwdriver04b', 'Img5': 'dolphin01', 'Img6': 'blender', 'Img7': 'candle08b', 'Img8': 'pear01', 'Img9': 'feather03a', 'Img10': 'blankImage', 'Img11': 'blankImage', 'Img12': 'blankImage', 'Img13': 'blankImage', 'Img14': 'blankImage', 'Img15': 'blankImage', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'dolphin01', 'Distractor1': 'coffeemaker', 'Distractor2': 'belt02a', 'Distractor3': 'rice', 'Distractor4': 'screwdriver04b', 'Distractor5': 'candle01', 'Distractor6': 'apple07', 'Distractor7': 'candle08b', 'Distractor8': 'pear01', 'Distractor9': 'feather03a', 'Distractor10': 'match', 'Distractor11': 'thermometer02b', 'Distractor12': 'printer02', 'Distractor13': 'lemon02', 'Distractor14': 'violin', 'Distractor15': 'medal02b', 'Distractor16': 'pineapple01a'}
+172.3497 	DATA 	Keypress: right
+172.3523 	EXP 	T2Response: autoDraw = False
+172.3523 	EXP 	text_1: height = 0.05000000000000001
+172.3523 	EXP 	text_1: height = 0.05000000000000001
+172.3523 	EXP 	text_1: height = 0.05000000000000001
+172.3523 	EXP 	text_1: text = 'dolphin'
+172.3523 	EXP 	text_1: autoDraw = True
+173.3410 	EXP 	Fixation_Cross: autoDraw = True
+173.3577 	EXP 	text_1: autoDraw = False
+173.9858 	EXP 	Fixation_Cross: autoDraw = False
+173.9858 	EXP 	Rapid_Image_Present: autoDraw = True
+174.1133 	EXP 	text_1: autoDraw = False
+174.1133 	EXP 	Fixation_Cross: autoDraw = False
+174.1133 	EXP 	Rapid_Image_Present: autoDraw = False
+174.1133 	EXP 	T1Response: height = 0.05000000000000001
+174.1133 	EXP 	T1Response: height = 0.05000000000000001
+174.1133 	EXP 	T1Response: height = 0.05000000000000001
+174.1133 	EXP 	T1Response: text = 'Did you see the dolphin?'
+174.1133 	EXP 	T1Response: autoDraw = True
+174.6309 	DATA 	Keypress: right
+174.6578 	EXP 	T1Response: autoDraw = False
+174.6578 	EXP 	T2Response: autoDraw = True
+174.8292 	EXP 	New trial (rep=0, index=11): {'TrialType': 'AB', 'CondType': 'Lag1_T1P_T2P', 'Lag': 1, 'T1_PA': 'P', 'T2_PA': 'P', 'T1Loc': 5, 'T2Loc': 6, 'PreDistractor': 4, 'PostDistractor': 3, 'TotalImg': 9, 'cueWord': 'camel', 'T1cue': 'Did you see the camel?', 'StimLength': 0.01, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'iron01b', 'Img2': 'brick', 'Img3': 'broccoli01a', 'Img4': 'balloon01b', 'Img5': 'dromedary', 'Img6': 'blender', 'Img7': 'sandal', 'Img8': 'teabag', 'Img9': 'scissors01', 'Img10': 'blankImage', 'Img11': 'blankImage', 'Img12': 'blankImage', 'Img13': 'blankImage', 'Img14': 'blankImage', 'Img15': 'blankImage', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'dromedary', 'Distractor1': 'iron01b', 'Distractor2': 'brick', 'Distractor3': 'broccoli01a', 'Distractor4': 'balloon01b', 'Distractor5': 'tomato01', 'Distractor6': 'apple07', 'Distractor7': 'sandal', 'Distractor8': 'teabag', 'Distractor9': 'scissors01', 'Distractor10': 'pineapple01a', 'Distractor11': 'onion', 'Distractor12': 'measuringcup01', 'Distractor13': 'sock01a', 'Distractor14': 'book01b', 'Distractor15': 'eraser', 'Distractor16': 'calculator01'}
+174.8469 	DATA 	Keypress: right
+174.8494 	EXP 	T2Response: autoDraw = False
+174.8494 	EXP 	text_1: height = 0.05000000000000001
+174.8494 	EXP 	text_1: height = 0.05000000000000001
+174.8494 	EXP 	text_1: height = 0.05000000000000001
+174.8494 	EXP 	text_1: text = 'camel'
+174.8494 	EXP 	text_1: autoDraw = True
+175.8413 	EXP 	Fixation_Cross: autoDraw = True
+175.8578 	EXP 	text_1: autoDraw = False
+176.4824 	EXP 	Fixation_Cross: autoDraw = False
+176.4824 	EXP 	Rapid_Image_Present: autoDraw = True
+176.6144 	EXP 	text_1: autoDraw = False
+176.6144 	EXP 	Fixation_Cross: autoDraw = False
+176.6144 	EXP 	Rapid_Image_Present: autoDraw = False
+176.6144 	EXP 	T1Response: height = 0.05000000000000001
+176.6144 	EXP 	T1Response: height = 0.05000000000000001
+176.6144 	EXP 	T1Response: height = 0.05000000000000001
+176.6144 	EXP 	T1Response: text = 'Did you see the camel?'
+176.6144 	EXP 	T1Response: autoDraw = True
+177.1311 	DATA 	Keypress: right
+177.1409 	EXP 	T1Response: autoDraw = False
+177.1409 	EXP 	T2Response: autoDraw = True
+177.2960 	DATA 	Keypress: right
+177.3112 	EXP 	New trial (rep=0, index=12): {'TrialType': 'AB', 'CondType': 'Lag1_T1P_T2P', 'Lag': 1, 'T1_PA': 'P', 'T2_PA': 'P', 'T1Loc': 6, 'T2Loc': 7, 'PreDistractor': 5, 'PostDistractor': 4, 'TotalImg': 11, 'cueWord': 'football', 'T1cue': 'Did you see the football?', 'StimLength': 0.01, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'toaster01', 'Img2': 'garlic01a', 'Img3': 'stapler03a', 'Img4': 'fan', 'Img5': 'comb02a', 'Img6': 'football', 'Img7': 'blender', 'Img8': 'watch02a', 'Img9': 'onion', 'Img10': 'blueberry01', 'Img11': 'toiletpaper01a', 'Img12': 'blankImage', 'Img13': 'blankImage', 'Img14': 'blankImage', 'Img15': 'blankImage', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'football', 'Distractor1': 'toaster01', 'Distractor2': 'garlic01a', 'Distractor3': 'stapler03a', 'Distractor4': 'fan', 'Distractor5': 'comb02a', 'Distractor6': 'apple07', 'Distractor7': 'orange', 'Distractor8': 'watch02a', 'Distractor9': 'onion', 'Distractor10': 'blueberry01', 'Distractor11': 'toiletpaper01a', 'Distractor12': 'fork03c', 'Distractor13': 'cymbal', 'Distractor14': 'pineapple01a', 'Distractor15': 'scarf', 'Distractor16': 'eraser'}
+177.3274 	EXP 	T2Response: autoDraw = False
+177.3274 	EXP 	text_1: height = 0.05000000000000001
+177.3274 	EXP 	text_1: height = 0.05000000000000001
+177.3274 	EXP 	text_1: height = 0.05000000000000001
+177.3274 	EXP 	text_1: text = 'football'
+177.3274 	EXP 	text_1: autoDraw = True
+178.3243 	EXP 	Fixation_Cross: autoDraw = True
+178.3409 	EXP 	text_1: autoDraw = False
+178.6786 	DATA 	Keypress: escape
+179.3542 	EXP 	window1: mouseVisible = True
