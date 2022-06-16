@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.1.4),
-    on June 15, 2022, at 10:52
+    on June 15, 2022, at 14:23
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -189,7 +189,7 @@ AB_TestClock = core.Clock()
 curImage = ''
 curImageContainer = []
 trialClock = core.Clock()
-from pathlib import Path
+
 Rapid_Image_Present = visual.ImageStim(
     win=win,
     name='Rapid_Image_Present', 
@@ -332,7 +332,7 @@ routineTimer.reset()
 # set up handler to look after randomisation of conditions etc
 Practice_Trials = data.TrialHandler(nReps=1.0, method='sequential', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('C:/Users/User/OneDrive/Documents/GitHub/Test/Practice_Condition_2.xlsx'),
+    trialList=data.importConditions('C:/Users/User/OneDrive/Documents/GitHub/Test/Practice_Condition.xlsx'),
     seed=None, name='Practice_Trials')
 thisExp.addLoop(Practice_Trials)  # add the loop to the experiment
 thisPractice_Trial = Practice_Trials.trialList[0]  # so we can initialise stimuli with some values
@@ -1032,109 +1032,118 @@ for thisTrial in trials:
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
         t = trialClock.getTime()
-        frame = frame+1
+        
         curImage = "resources\\JPG\\" + Img1
         imageCount = 1
         
-        if frame>StimLength:
+        if t>StimLength:
             curImage = "resources\\JPG\\" + Img2
             imageCount = 2
-        elif frame>StimLength*2:
+        
+        if t>StimLength*2:
             curImage = "resources\\JPG\\" + Img3
             imageCount = 3
-        elif frame>StimLength*3:
+        
+        if t>StimLength*3:
             curImage = "resources\\JPG\\" + Img4
             imageCount = 4
-        elif frame>StimLength*4:
+        
+        if t>StimLength*4:
             if Img5 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img5
                 imageCount = 5
-        elif frame>StimLength*5:
+        
+        if t>StimLength*5:
             if Img6 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img6
                 imageCount = 6
-        elif frame>StimLength*6:
+        
+        if t>StimLength*6:
             if Img7 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img7
                 imageCount = 7
-        elif frame>StimLength*7:
+        
+        if t>StimLength*7:
             if Img8 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img8
                 imageCount = 8
-        elif frame>StimLength*8:
+        
+        if t>StimLength*8:
             if Img9 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img9
                 imageCount = 9
-        elif frame>StimLength*9:
+        
+        if t>StimLength*9:
             if Img10 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img10
                 imageCount = 10
         
-        elif frame>StimLength*10:
+        if t>StimLength*10:
             if Img11 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img11
                 imageCount = 11
         
-        elif frame>StimLength*11:
+        if t>StimLength*11:
             if Img12 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img12
                 imageCount = 12
         
-        elif frame>StimLength*12:
+        if t>StimLength*12:
             if Img13 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img13
                 imageCount = 13
         
-        elif frame>StimLength*13:
+        if t>StimLength*13:
             if Img14 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img14
                 imageCount = 14
         
-        elif frame>StimLength*14:
+        if t>StimLength*14:
             if Img15 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img15
                 imageCount = 15
         
-        elif frame>StimLength*15:
+        if t>StimLength*15 :
             if Img16 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img16
                 imageCount = 16
         
-        else:
-            continueRoutine = False
-           
+        if t>StimLength*16:
+            if Img17 == "blankImage":
+                continueRoutine = False
+            else:
+                curImage = "resources\\JPG\\" + Img17
+                imageCount = 17
         
         curImage = curImage + ".jpg"
-        path = Path(curImage)
-        if path.is_file():
-            #do nothing because it works
-        else:
-            trials.addData('ErrorImage', curImage)
-            curImage = "resources\\JPG\\" + "blender.jpg"
+        
+        #if !exists(curImage):
+        #    Practice_Trials.addData('ErrorImage', curImage)
+         #   curImage = "resources\\JPG\\" + "blender.jpg"
             
         
         # *Rapid_Image_Present* updates

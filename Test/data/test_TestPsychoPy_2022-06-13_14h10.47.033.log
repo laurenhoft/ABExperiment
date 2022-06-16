@@ -1,0 +1,47 @@
+3.2436 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+9.5182 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1366, 768]. Using actual size
+11.4654 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000025510D1C190>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002551199DB80>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+11.4661 	EXP 	window1: mouseVisible = True
+11.4662 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+11.4663 	EXP 	window1: recordFrameIntervals = False
+11.6309 	EXP 	window1: recordFrameIntervals = True
+11.8147 	EXP 	Screen (0) actual frame rate measured at 59.97Hz
+11.8148 	EXP 	window1: recordFrameIntervals = False
+14.8018 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Instructions here', units='height', win=Window(...), wrapWidth=1)
+14.8038 	EXP 	Created Practice_Text_1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Practice_Text_1', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.8104 	EXP 	Created Fixation_Cross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='Fixation_Cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.8203 	EXP 	Created Rapi_Image_Present = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Rapi_Image_Present', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+14.8224 	EXP 	Created T1_Response = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='T1_Response', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.8331 	EXP 	text: autoDraw = True
+15.1724 	EXP 	Imported C:/Users/User/OneDrive/Documents/GitHub/Test/Practice_Condition.xlsx as conditions, 1 conditions, 30 params
+15.1733 	EXP 	Created sequence: random, trialTypes=1, nReps=5, seed=None
+15.1743 	EXP 	New trial (rep=0, index=0): {'TrialType': 'AB', 'CondType': 'Lag1_T1P_T2A', 'Lag': 1, 'T1Loc': 2, 'T2Loc': 3, 'cueWord': 'armadillo', 'T1cue': 'Did you see the armadillo?', 'StimLength': 0.5, 'isi': 0.016, 'PreDistractor': 1, 'T1_PA': 1, 'T2_PA': 0, 'PicFolder': 'resources\\', 'PostDistractor': 1, 'Img1': 'acorn.jpg', 'Img2': 'armadillo.jpg', 'Img3': 'badmintonracket.jpg', 'Img4': 'apron.jpg', 'Img5': None, 'Img6': None, 'Img7': None, 'Img8': None, 'Img9': None, 'Img10': None, 'Img11': None, 'Img12': None, 'Img13': None, 'Img14': None, 'Img15': None, 'Img16': None}
+15.1890 	DATA 	Keypress: space
+15.1915 	EXP 	text: autoDraw = False
+15.1915 	EXP 	Practice_Text_1: height = 0.05000000000000001
+15.1915 	EXP 	Practice_Text_1: height = 0.05000000000000001
+15.1915 	EXP 	Practice_Text_1: height = 0.05000000000000001
+15.1915 	EXP 	Practice_Text_1: text = 'armadillo'
+15.1915 	EXP 	Practice_Text_1: autoDraw = True
+16.1807 	EXP 	Fixation_Cross: autoDraw = True
+16.1973 	EXP 	Practice_Text_1: autoDraw = False
+16.7311 	EXP 	Fixation_Cross: autoDraw = False
+16.7311 	EXP 	Rapi_Image_Present: autoDraw = True
+18.7275 	EXP 	Practice_Text_1: autoDraw = False
+18.7275 	EXP 	Fixation_Cross: autoDraw = False
+18.7275 	EXP 	Rapi_Image_Present: autoDraw = False
+18.7275 	EXP 	T1_Response: height = 0.05000000000000001
+18.7275 	EXP 	T1_Response: height = 0.05000000000000001
+18.7275 	EXP 	T1_Response: height = 0.05000000000000001
+18.7275 	EXP 	T1_Response: text = 'Did you see the armadillo?'
+18.7275 	EXP 	T1_Response: autoDraw = True
+19.6992 	EXP 	New trial (rep=1, index=0): {'TrialType': 'AB', 'CondType': 'Lag1_T1P_T2A', 'Lag': 1, 'T1Loc': 2, 'T2Loc': 3, 'cueWord': 'armadillo', 'T1cue': 'Did you see the armadillo?', 'StimLength': 0.5, 'isi': 0.016, 'PreDistractor': 1, 'T1_PA': 1, 'T2_PA': 0, 'PicFolder': 'resources\\', 'PostDistractor': 1, 'Img1': 'acorn.jpg', 'Img2': 'armadillo.jpg', 'Img3': 'badmintonracket.jpg', 'Img4': 'apron.jpg', 'Img5': None, 'Img6': None, 'Img7': None, 'Img8': None, 'Img9': None, 'Img10': None, 'Img11': None, 'Img12': None, 'Img13': None, 'Img14': None, 'Img15': None, 'Img16': None}
+19.7141 	EXP 	T1_Response: autoDraw = False
+19.7141 	EXP 	Practice_Text_1: text = 'armadillo'
+19.7141 	EXP 	Practice_Text_1: autoDraw = True
+20.6973 	EXP 	Fixation_Cross: autoDraw = True
+20.7140 	EXP 	Practice_Text_1: autoDraw = False
+21.1977 	EXP 	Fixation_Cross: autoDraw = False
+21.1977 	EXP 	Rapi_Image_Present: autoDraw = True
+22.3036 	DATA 	Keypress: escape
+22.9518 	EXP 	window1: mouseVisible = True

@@ -1,0 +1,305 @@
+3.6630 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+13.5436 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1366, 768]. Using actual size
+16.9447 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+16.9455 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001F1AE5C2A60>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001F1B01F4D90>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+16.9463 	EXP 	window1: mouseVisible = True
+16.9464 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+16.9465 	EXP 	window1: recordFrameIntervals = False
+17.1100 	EXP 	window1: recordFrameIntervals = True
+18.7782 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+21.9275 	EXP 	Created Practice_Ins = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='Practice_Ins', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Practice trials instructions here', units='height', win=Window(...), wrapWidth=1)
+21.9294 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+21.9377 	EXP 	Created Fixation_Cross_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='Fixation_Cross_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+21.9472 	EXP 	Created Rapid_Image_Present_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Rapid_Image_Present_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+21.9492 	EXP 	Created T1Response_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='T1Response_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+21.9634 	EXP 	Created T2Response_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='T2Response_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Did you see the blender?', units='height', win=Window(...), wrapWidth=1)
+21.9724 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Instructions here', units='height', win=Window(...), wrapWidth=1)
+21.9742 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+21.9785 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+21.9847 	EXP 	Created Rapid_Image_Present = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Rapid_Image_Present', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+21.9871 	EXP 	Created T1Response = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='T1Response', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+21.9935 	EXP 	Created T2Response = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='T2Response', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Did you see the blender?', units='height', win=Window(...), wrapWidth=1)
+22.0094 	WARNING 	t of last frame was 3231.67ms (=1/0)
+22.0094 	EXP 	Practice_Ins: autoDraw = True
+22.0445 	WARNING 	t of last frame was 24.24ms (=1/41)
+24.3489 	EXP 	Imported C:/Users/User/OneDrive/Documents/GitHub/Test/Practice_Condition.xlsx as conditions, 12 conditions, 33 params
+24.3496 	EXP 	Created sequence: sequential, trialTypes=12, nReps=1, seed=None
+24.3506 	EXP 	New trial (rep=0, index=0): {'TrialType': 'AB', 'CondType': 'Lag1_T1P_T2P', 'Lag': 1, 'T1_PA': 'P', 'T2_PA': 'P', 'T1Loc': 8, 'T2Loc': 9, 'PreDistractor': 7, 'PostDistractor': 5, 'TotalImg': 14, 'cueWord': 'Tennis racket', 'T1cue': 'Did you see the Tennis racket?', 'StimLength': 0.5, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'coconut', 'Img2': 'computermouse06', 'Img3': 'croissant01', 'Img4': 'deodorant02a', 'Img5': 'pillow01a', 'Img6': 'peanut01', 'Img7': 'boot02b', 'Img8': 'tennisracket', 'Img9': 'blender', 'Img10': 'crayon', 'Img11': 'eggplant', 'Img12': 'marker01a', 'Img13': 'plant01', 'Img14': 'radish01', 'Img15': 'blankImage', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'tennisracket'}
+24.3622 	DATA 	Keypress: space
+24.3658 	WARNING 	t of last frame was 88.21ms (=1/11)
+24.3658 	EXP 	Practice_Ins: autoDraw = False
+24.3658 	EXP 	text_2: height = 0.05000000000000001
+24.3658 	EXP 	text_2: height = 0.05000000000000001
+24.3658 	EXP 	text_2: height = 0.05000000000000001
+24.3658 	EXP 	text_2: text = 'Tennis racket'
+24.3658 	EXP 	text_2: autoDraw = True
+25.3601 	EXP 	Fixation_Cross_2: autoDraw = True
+25.3775 	EXP 	text_2: autoDraw = False
+25.4179 	WARNING 	t of last frame was 24.22ms (=1/41)
+25.4612 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+26.1575 	EXP 	Fixation_Cross_2: autoDraw = False
+26.1575 	EXP 	Rapid_Image_Present_2: autoDraw = True
+33.0684 	EXP 	text_2: autoDraw = False
+33.0684 	EXP 	Fixation_Cross_2: autoDraw = False
+33.0684 	EXP 	Rapid_Image_Present_2: autoDraw = False
+33.0684 	EXP 	T1Response_2: height = 0.05000000000000001
+33.0684 	EXP 	T1Response_2: height = 0.05000000000000001
+33.0684 	EXP 	T1Response_2: height = 0.05000000000000001
+33.0684 	EXP 	T1Response_2: text = 'Did you see the Tennis racket?'
+33.0684 	EXP 	T1Response_2: autoDraw = True
+34.0702 	EXP 	T1Response_2: autoDraw = False
+35.0321 	DATA 	Keypress: left
+35.0369 	EXP 	T1Response_2: autoDraw = False
+35.0369 	EXP 	T2Response_2: autoDraw = True
+35.9438 	EXP 	New trial (rep=0, index=1): {'TrialType': 'AB', 'CondType': 'Lag1_T1P_T2P', 'Lag': 1, 'T1_PA': 'P', 'T2_PA': 'P', 'T1Loc': 6, 'T2Loc': 7, 'PreDistractor': 5, 'PostDistractor': 5, 'TotalImg': 12, 'cueWord': 'triangle', 'T1cue': 'Did you see the triangle?', 'StimLength': 0.5, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'ginger', 'Img2': 'mousetrap', 'Img3': 'plum01', 'Img4': 'slipper01b', 'Img5': 'dropper01', 'Img6': 'triangle', 'Img7': 'blender', 'Img8': 'pants', 'Img9': 'raspberry01', 'Img10': 'rope03', 'Img11': 'scale01a', 'Img12': 'vase01', 'Img13': 'blankImage', 'Img14': 'blankImage', 'Img15': 'blankImage', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'triangle'}
+36.0239 	DATA 	Keypress: left
+36.0262 	EXP 	T2Response_2: autoDraw = False
+36.0262 	EXP 	text_2: height = 0.05000000000000001
+36.0262 	EXP 	text_2: height = 0.05000000000000001
+36.0262 	EXP 	text_2: height = 0.05000000000000001
+36.0262 	EXP 	text_2: text = 'triangle'
+36.0262 	EXP 	text_2: autoDraw = True
+37.0202 	EXP 	Fixation_Cross_2: autoDraw = True
+37.0370 	EXP 	text_2: autoDraw = False
+37.6515 	EXP 	Fixation_Cross_2: autoDraw = False
+37.6515 	EXP 	Rapid_Image_Present_2: autoDraw = True
+43.8187 	EXP 	text_2: autoDraw = False
+43.8187 	EXP 	Fixation_Cross_2: autoDraw = False
+43.8187 	EXP 	Rapid_Image_Present_2: autoDraw = False
+43.8187 	EXP 	T1Response_2: height = 0.05000000000000001
+43.8187 	EXP 	T1Response_2: height = 0.05000000000000001
+43.8187 	EXP 	T1Response_2: height = 0.05000000000000001
+43.8187 	EXP 	T1Response_2: text = 'Did you see the triangle?'
+43.8187 	EXP 	T1Response_2: autoDraw = True
+44.2771 	DATA 	Keypress: left
+44.2869 	EXP 	T1Response_2: autoDraw = False
+44.2869 	EXP 	T2Response_2: autoDraw = True
+44.4406 	EXP 	New trial (rep=0, index=2): {'TrialType': 'AB', 'CondType': 'Lag5_T1P_T2P', 'Lag': 5, 'T1_PA': 'P', 'T2_PA': 'P', 'T1Loc': 7, 'T2Loc': 12, 'PreDistractor': 6, 'PostDistractor': 3, 'TotalImg': 15, 'cueWord': 'vacuum', 'T1cue': 'Did you see the vacuum?', 'StimLength': 0.5, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'fork07b', 'Img2': 'lightbulb01', 'Img3': 'manshoe', 'Img4': 'saw02b', 'Img5': 'shoelace', 'Img6': 'soap03a', 'Img7': 'vacuumcleaner01', 'Img8': 'floortile01', 'Img9': 'necklace', 'Img10': 'doll', 'Img11': 'cabbage', 'Img12': 'blender', 'Img13': 'hanger02a', 'Img14': 'laptop01a', 'Img15': 'nailpolish03b', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'vacuumcleaner01'}
+44.4606 	DATA 	Keypress: left
+44.4631 	EXP 	T2Response_2: autoDraw = False
+44.4631 	EXP 	text_2: height = 0.05000000000000001
+44.4631 	EXP 	text_2: height = 0.05000000000000001
+44.4631 	EXP 	text_2: height = 0.05000000000000001
+44.4631 	EXP 	text_2: text = 'vacuum'
+44.4631 	EXP 	text_2: autoDraw = True
+45.4537 	EXP 	Fixation_Cross_2: autoDraw = True
+45.4704 	EXP 	text_2: autoDraw = False
+46.0657 	EXP 	Fixation_Cross_2: autoDraw = False
+46.0657 	EXP 	Rapid_Image_Present_2: autoDraw = True
+53.6541 	EXP 	text_2: autoDraw = False
+53.6541 	EXP 	Fixation_Cross_2: autoDraw = False
+53.6541 	EXP 	Rapid_Image_Present_2: autoDraw = False
+53.6541 	EXP 	T1Response_2: height = 0.05000000000000001
+53.6541 	EXP 	T1Response_2: height = 0.05000000000000001
+53.6541 	EXP 	T1Response_2: height = 0.05000000000000001
+53.6541 	EXP 	T1Response_2: text = 'Did you see the vacuum?'
+53.6541 	EXP 	T1Response_2: autoDraw = True
+54.2956 	DATA 	Keypress: left
+54.3043 	EXP 	T1Response_2: autoDraw = False
+54.3043 	EXP 	T2Response_2: autoDraw = True
+54.4410 	EXP 	New trial (rep=0, index=3): {'TrialType': 'AB', 'CondType': 'Lag5_T1P_T2P', 'Lag': 5, 'T1_PA': 'P', 'T2_PA': 'P', 'T1Loc': 5, 'T2Loc': 10, 'PreDistractor': 4, 'PostDistractor': 5, 'TotalImg': 15, 'cueWord': 'Vulture', 'T1cue': 'Did you see the Vulture?', 'StimLength': 0.5, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'shorts01', 'Img2': 'toast', 'Img3': 'ramekin01', 'Img4': 'bib', 'Img5': 'vulture', 'Img6': 'cracker02', 'Img7': 'date', 'Img8': 'glasses01a', 'Img9': 'hat03b', 'Img10': 'blender', 'Img11': 'measuringtape01', 'Img12': 'nail', 'Img13': 'pill', 'Img14': 'drum01', 'Img15': 'starfish01', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'vulture'}
+54.4673 	DATA 	Keypress: left
+54.4700 	EXP 	T2Response_2: autoDraw = False
+54.4700 	EXP 	text_2: height = 0.05000000000000001
+54.4700 	EXP 	text_2: height = 0.05000000000000001
+54.4700 	EXP 	text_2: height = 0.05000000000000001
+54.4700 	EXP 	text_2: text = 'Vulture'
+54.4700 	EXP 	text_2: autoDraw = True
+55.4535 	EXP 	Fixation_Cross_2: autoDraw = True
+55.4702 	EXP 	text_2: autoDraw = False
+56.0788 	EXP 	Fixation_Cross_2: autoDraw = False
+56.0788 	EXP 	Rapid_Image_Present_2: autoDraw = True
+63.6020 	EXP 	text_2: autoDraw = False
+63.6020 	EXP 	Fixation_Cross_2: autoDraw = False
+63.6020 	EXP 	Rapid_Image_Present_2: autoDraw = False
+63.6020 	EXP 	T1Response_2: height = 0.05000000000000001
+63.6020 	EXP 	T1Response_2: height = 0.05000000000000001
+63.6020 	EXP 	T1Response_2: height = 0.05000000000000001
+63.6020 	EXP 	T1Response_2: text = 'Did you see the Vulture?'
+63.6020 	EXP 	T1Response_2: autoDraw = True
+64.3119 	DATA 	Keypress: left
+64.3201 	EXP 	T1Response_2: autoDraw = False
+64.3201 	EXP 	T2Response_2: autoDraw = True
+64.4744 	EXP 	New trial (rep=0, index=4): {'TrialType': 'AB', 'CondType': 'Lag5_T1P_T2P', 'Lag': 5, 'T1_PA': 'P', 'T2_PA': 'P', 'T1Loc': 5, 'T2Loc': 10, 'PreDistractor': 4, 'PostDistractor': 5, 'TotalImg': 15, 'cueWord': 'washing machine', 'T1cue': 'Did you see the washing machine?', 'StimLength': 0.5, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'waterbottle03', 'Img2': 'wheel01', 'Img3': 'flashlight02b', 'Img4': 'zucchini01', 'Img5': 'washingmachine', 'Img6': 'headphones02b', 'Img7': 'nutcracker01', 'Img8': 'paintroller01', 'Img9': 'paperclip03', 'Img10': 'blender', 'Img11': 'ribbon04', 'Img12': 'electricrazor', 'Img13': 'bottleofredwine01', 'Img14': 'pitabread', 'Img15': 'pot02a', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'washingmachine'}
+64.5046 	DATA 	Keypress: left
+64.5074 	EXP 	T2Response_2: autoDraw = False
+64.5074 	EXP 	text_2: height = 0.05000000000000001
+64.5074 	EXP 	text_2: height = 0.05000000000000001
+64.5074 	EXP 	text_2: height = 0.05000000000000001
+64.5074 	EXP 	text_2: text = 'washing machine'
+64.5074 	EXP 	text_2: autoDraw = True
+65.5032 	EXP 	Fixation_Cross_2: autoDraw = True
+65.5199 	EXP 	text_2: autoDraw = False
+66.1128 	EXP 	Fixation_Cross_2: autoDraw = False
+66.1128 	EXP 	Rapid_Image_Present_2: autoDraw = True
+73.6995 	EXP 	text_2: autoDraw = False
+73.6995 	EXP 	Fixation_Cross_2: autoDraw = False
+73.6995 	EXP 	Rapid_Image_Present_2: autoDraw = False
+73.6995 	EXP 	T1Response_2: height = 0.05000000000000001
+73.6995 	EXP 	T1Response_2: height = 0.05000000000000001
+73.6995 	EXP 	T1Response_2: height = 0.05000000000000001
+73.6995 	EXP 	T1Response_2: text = 'Did you see the washing machine?'
+73.6995 	EXP 	T1Response_2: autoDraw = True
+74.2958 	DATA 	Keypress: left
+74.3031 	EXP 	T1Response_2: autoDraw = False
+74.3031 	EXP 	T2Response_2: autoDraw = True
+74.4731 	EXP 	New trial (rep=0, index=5): {'TrialType': 'AB', 'CondType': 'Lag1_T1P_T2A', 'Lag': 1, 'T1_PA': 'P', 'T2_PA': 'A', 'T1Loc': 8, 'T2Loc': 9, 'PreDistractor': 7, 'PostDistractor': 5, 'TotalImg': 14, 'cueWord': 'flower', 'T1cue': 'Did you see the flower?', 'StimLength': 0.5, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'razor01', 'Img2': 'axe01', 'Img3': 'binder03b', 'Img4': 'bowl01', 'Img5': 'kettle01', 'Img6': 'lettuce', 'Img7': 'lime', 'Img8': 'plasticflower01b', 'Img9': 'mitten04', 'Img10': 'pencilcase01', 'Img11': 'plunger02', 'Img12': 'strawbasket01', 'Img13': 'toothpick02', 'Img14': 'wallet02a', 'Img15': 'blankImage', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'plasticflower01b'}
+74.4959 	DATA 	Keypress: left
+74.4984 	EXP 	T2Response_2: autoDraw = False
+74.4984 	EXP 	text_2: height = 0.05000000000000001
+74.4984 	EXP 	text_2: height = 0.05000000000000001
+74.4984 	EXP 	text_2: height = 0.05000000000000001
+74.4984 	EXP 	text_2: text = 'flower'
+74.4984 	EXP 	text_2: autoDraw = True
+75.4865 	EXP 	Fixation_Cross_2: autoDraw = True
+75.5031 	EXP 	text_2: autoDraw = False
+76.1083 	EXP 	Fixation_Cross_2: autoDraw = False
+76.1083 	EXP 	Rapid_Image_Present_2: autoDraw = True
+83.1845 	EXP 	text_2: autoDraw = False
+83.1845 	EXP 	Fixation_Cross_2: autoDraw = False
+83.1845 	EXP 	Rapid_Image_Present_2: autoDraw = False
+83.1845 	EXP 	T1Response_2: height = 0.05000000000000001
+83.1845 	EXP 	T1Response_2: height = 0.05000000000000001
+83.1845 	EXP 	T1Response_2: height = 0.05000000000000001
+83.1845 	EXP 	T1Response_2: text = 'Did you see the flower?'
+83.1845 	EXP 	T1Response_2: autoDraw = True
+83.7101 	DATA 	Keypress: left
+83.7196 	EXP 	T1Response_2: autoDraw = False
+83.7196 	EXP 	T2Response_2: autoDraw = True
+83.8414 	DATA 	Keypress: left
+83.8564 	EXP 	New trial (rep=0, index=6): {'TrialType': 'AB', 'CondType': 'Lag1_T1P_T2A', 'Lag': 1, 'T1_PA': 'P', 'T2_PA': 'A', 'T1Loc': 5, 'T2Loc': 6, 'PreDistractor': 4, 'PostDistractor': 5, 'TotalImg': 11, 'cueWord': 'Webcam', 'T1cue': 'Did you see the Webcam?', 'StimLength': 0.5, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'pictureframe04', 'Img2': 'stapleremover', 'Img3': 'straw', 'Img4': 'adjustablewrench01b', 'Img5': 'webcam', 'Img6': 'cane', 'Img7': 'hairdryer02a', 'Img8': 'icepack', 'Img9': 'kitchenscale01a', 'Img10': 'lifejacket', 'Img11': 'piggybank', 'Img12': 'blankImage', 'Img13': 'blankImage', 'Img14': 'blankImage', 'Img15': 'blankImage', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': 'webcam'}
+83.8822 	EXP 	T2Response_2: autoDraw = False
+83.8822 	EXP 	text_2: height = 0.05000000000000001
+83.8822 	EXP 	text_2: height = 0.05000000000000001
+83.8822 	EXP 	text_2: height = 0.05000000000000001
+83.8822 	EXP 	text_2: text = 'Webcam'
+83.8822 	EXP 	text_2: autoDraw = True
+84.8696 	EXP 	Fixation_Cross_2: autoDraw = True
+84.8863 	EXP 	text_2: autoDraw = False
+85.5136 	EXP 	Fixation_Cross_2: autoDraw = False
+85.5136 	EXP 	Rapid_Image_Present_2: autoDraw = True
+91.0857 	EXP 	text_2: autoDraw = False
+91.0857 	EXP 	Fixation_Cross_2: autoDraw = False
+91.0857 	EXP 	Rapid_Image_Present_2: autoDraw = False
+91.0857 	EXP 	T1Response_2: height = 0.05000000000000001
+91.0857 	EXP 	T1Response_2: height = 0.05000000000000001
+91.0857 	EXP 	T1Response_2: height = 0.05000000000000001
+91.0857 	EXP 	T1Response_2: text = 'Did you see the Webcam?'
+91.0857 	EXP 	T1Response_2: autoDraw = True
+91.6449 	DATA 	Keypress: left
+91.6529 	EXP 	T1Response_2: autoDraw = False
+91.6529 	EXP 	T2Response_2: autoDraw = True
+91.7754 	DATA 	Keypress: left
+91.7898 	EXP 	New trial (rep=0, index=7): {'TrialType': 'AB', 'CondType': 'Lag5_T1P_T2A', 'Lag': 5, 'T1_PA': 'P', 'T2_PA': 'A', 'T1Loc': 6, 'T2Loc': 11, 'PreDistractor': 5, 'PostDistractor': 5, 'TotalImg': 16, 'cueWord': 'Wheat', 'T1cue': 'Did you see the Wheat?', 'StimLength': 0.5, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'bottleopener01', 'Img2': 'dentalfloss03b', 'Img3': 'cooler01', 'Img4': 'icecreamcone01a', 'Img5': 'paperclip01b', 'Img6': 'wheat', 'Img7': 'pencilsharpener02a', 'Img8': 'plasticbasket01a', 'Img9': 'toycar04', 'Img10': 'apricot', 'Img11': 'hairclip02', 'Img12': 'rock01a', 'Img13': 'honeydewmelon', 'Img14': 'antenna', 'Img15': 'blackberry', 'Img16': 'cardboardbox', 'Img17': 'blankImage', 'T1_Identity': 'wheat'}
+91.8068 	EXP 	T2Response_2: autoDraw = False
+91.8068 	EXP 	text_2: height = 0.05000000000000001
+91.8068 	EXP 	text_2: height = 0.05000000000000001
+91.8068 	EXP 	text_2: height = 0.05000000000000001
+91.8068 	EXP 	text_2: text = 'Wheat'
+91.8068 	EXP 	text_2: autoDraw = True
+92.8028 	EXP 	Fixation_Cross_2: autoDraw = True
+92.8194 	EXP 	text_2: autoDraw = False
+93.4159 	EXP 	Fixation_Cross_2: autoDraw = False
+93.4159 	EXP 	Rapid_Image_Present_2: autoDraw = True
+101.5493 	EXP 	text_2: autoDraw = False
+101.5493 	EXP 	Fixation_Cross_2: autoDraw = False
+101.5493 	EXP 	Rapid_Image_Present_2: autoDraw = False
+101.5493 	EXP 	T1Response_2: height = 0.05000000000000001
+101.5493 	EXP 	T1Response_2: height = 0.05000000000000001
+101.5493 	EXP 	T1Response_2: height = 0.05000000000000001
+101.5493 	EXP 	T1Response_2: text = 'Did you see the Wheat?'
+101.5493 	EXP 	T1Response_2: autoDraw = True
+102.4993 	DATA 	Keypress: left
+102.5026 	EXP 	T1Response_2: autoDraw = False
+102.5026 	EXP 	T2Response_2: autoDraw = True
+102.6446 	EXP 	New trial (rep=0, index=8): {'TrialType': 'AB', 'CondType': 'Lag5_T1P_T2A', 'Lag': 5, 'T1_PA': 'P', 'T2_PA': 'A', 'T1Loc': 6, 'T2Loc': 11, 'PreDistractor': 5, 'PostDistractor': 5, 'TotalImg': 16, 'cueWord': 'bread', 'T1cue': 'Did you see the bread?', 'StimLength': 0.5, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'cleaver01', 'Img2': 'clipboard', 'Img3': 'dustpan', 'Img4': 'hikingshoe01', 'Img5': 'notebook03a', 'Img6': 'baguette01', 'Img7': 'playingcard', 'Img8': 'pliers02b', 'Img9': 'styrofoamcup', 'Img10': 'rollingpin01a', 'Img11': 'swimgoggles', 'Img12': 'wineglass01', 'Img13': 'fryingpan02a', 'Img14': 'safetypin', 'Img15': 'syringe01', 'Img16': 'thimble', 'Img17': 'blankImage', 'T1_Identity': 'baguette01'}
+102.6587 	DATA 	Keypress: left
+102.6612 	EXP 	T2Response_2: autoDraw = False
+102.6612 	EXP 	text_2: height = 0.05000000000000001
+102.6612 	EXP 	text_2: height = 0.05000000000000001
+102.6612 	EXP 	text_2: height = 0.05000000000000001
+102.6612 	EXP 	text_2: text = 'bread'
+102.6612 	EXP 	text_2: autoDraw = True
+103.6530 	EXP 	Fixation_Cross_2: autoDraw = True
+103.6697 	EXP 	text_2: autoDraw = False
+104.2442 	EXP 	Fixation_Cross_2: autoDraw = False
+104.2442 	EXP 	Rapid_Image_Present_2: autoDraw = True
+112.3298 	EXP 	text_2: autoDraw = False
+112.3298 	EXP 	Fixation_Cross_2: autoDraw = False
+112.3298 	EXP 	Rapid_Image_Present_2: autoDraw = False
+112.3298 	EXP 	T1Response_2: height = 0.05000000000000001
+112.3298 	EXP 	T1Response_2: height = 0.05000000000000001
+112.3298 	EXP 	T1Response_2: height = 0.05000000000000001
+112.3298 	EXP 	T1Response_2: text = 'Did you see the bread?'
+112.3298 	EXP 	T1Response_2: autoDraw = True
+113.3359 	EXP 	T1Response_2: autoDraw = False
+115.8703 	DATA 	Keypress: left
+115.8731 	EXP 	T1Response_2: autoDraw = False
+115.8731 	EXP 	T2Response_2: autoDraw = True
+116.0441 	EXP 	New trial (rep=0, index=9): {'TrialType': 'AB', 'CondType': 'Lag5_T1A_T2P', 'Lag': 5, 'T1_PA': 'A', 'T2_PA': 'P', 'T1Loc': 6, 'T2Loc': 11, 'PreDistractor': 5, 'PostDistractor': 3, 'TotalImg': 14, 'cueWord': 'dog', 'T1cue': 'Did you see the dog?', 'StimLength': 0.5, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'bucket01a', 'Img2': 'doorlock', 'Img3': 'cookiecutter', 'Img4': 'fireextinguisher01', 'Img5': 'gluestick', 'Img6': 'highlighter02b', 'Img7': 'sportbag', 'Img8': 'spraybottle01', 'Img9': 'suitcase', 'Img10': 'thread02', 'Img11': 'blender', 'Img12': 'walnut01c', 'Img13': 'icecubetray01a', 'Img14': 'vikingmask01b', 'Img15': 'blankImage', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': None}
+116.1646 	DATA 	Keypress: left
+116.1672 	EXP 	T2Response_2: autoDraw = False
+116.1672 	EXP 	text_2: height = 0.05000000000000001
+116.1672 	EXP 	text_2: height = 0.05000000000000001
+116.1672 	EXP 	text_2: height = 0.05000000000000001
+116.1672 	EXP 	text_2: text = 'dog'
+116.1672 	EXP 	text_2: autoDraw = True
+117.1690 	EXP 	text_2: autoDraw = False
+117.1690 	EXP 	Fixation_Cross_2: autoDraw = True
+117.8094 	EXP 	Fixation_Cross_2: autoDraw = False
+117.8094 	EXP 	Rapid_Image_Present_2: autoDraw = True
+124.8814 	EXP 	text_2: autoDraw = False
+124.8814 	EXP 	Fixation_Cross_2: autoDraw = False
+124.8814 	EXP 	Rapid_Image_Present_2: autoDraw = False
+124.8814 	EXP 	T1Response_2: height = 0.05000000000000001
+124.8814 	EXP 	T1Response_2: height = 0.05000000000000001
+124.8814 	EXP 	T1Response_2: height = 0.05000000000000001
+124.8814 	EXP 	T1Response_2: text = 'Did you see the dog?'
+124.8814 	EXP 	T1Response_2: autoDraw = True
+125.8272 	DATA 	Keypress: left
+125.8358 	EXP 	T1Response_2: autoDraw = False
+125.8358 	EXP 	T2Response_2: autoDraw = True
+126.0060 	EXP 	New trial (rep=0, index=10): {'TrialType': 'AB', 'CondType': 'Lag1_T1A_T2A', 'Lag': 1, 'T1_PA': 'A', 'T2_PA': 'A', 'T1Loc': 8, 'T2Loc': 9, 'PreDistractor': 7, 'PostDistractor': 3, 'TotalImg': 12, 'cueWord': 'Moose', 'T1cue': 'Did you see the Moose?', 'StimLength': 0.5, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'clothespin03b', 'Img2': 'corkscrew03a', 'Img3': 'drillbit03a', 'Img4': 'fusilli03a', 'Img5': 'needlenosepliers01', 'Img6': 'perfume01a', 'Img7': 'pistachio', 'Img8': 'scrubbingbrush05b', 'Img9': 'spatula03', 'Img10': 'toothpastetube', 'Img11': 'hinge', 'Img12': 'toydinosaur', 'Img13': 'blankImage', 'Img14': 'blankImage', 'Img15': 'blankImage', 'Img16': 'blankImage', 'Img17': 'blankImage', 'T1_Identity': None}
+126.0214 	DATA 	Keypress: left
+126.0238 	EXP 	T2Response_2: autoDraw = False
+126.0238 	EXP 	text_2: height = 0.05000000000000001
+126.0238 	EXP 	text_2: height = 0.05000000000000001
+126.0238 	EXP 	text_2: height = 0.05000000000000001
+126.0238 	EXP 	text_2: text = 'Moose'
+126.0238 	EXP 	text_2: autoDraw = True
+127.0189 	EXP 	Fixation_Cross_2: autoDraw = True
+127.0356 	EXP 	text_2: autoDraw = False
+127.6337 	EXP 	Fixation_Cross_2: autoDraw = False
+127.6337 	EXP 	Rapid_Image_Present_2: autoDraw = True
+133.6834 	EXP 	text_2: autoDraw = False
+133.6834 	EXP 	Fixation_Cross_2: autoDraw = False
+133.6834 	EXP 	Rapid_Image_Present_2: autoDraw = False
+133.6834 	EXP 	T1Response_2: height = 0.05000000000000001
+133.6834 	EXP 	T1Response_2: height = 0.05000000000000001
+133.6834 	EXP 	T1Response_2: height = 0.05000000000000001
+133.6834 	EXP 	T1Response_2: text = 'Did you see the Moose?'
+133.6834 	EXP 	T1Response_2: autoDraw = True
+134.6855 	EXP 	T1Response_2: autoDraw = False
+136.5775 	DATA 	Keypress: left
+136.5855 	EXP 	T1Response_2: autoDraw = False
+136.5855 	EXP 	T2Response_2: autoDraw = True
+136.7441 	EXP 	New trial (rep=0, index=11): {'TrialType': 'AB', 'CondType': 'Lag5_T1A_T2A', 'Lag': 5, 'T1_PA': 'A', 'T2_PA': 'A', 'T1Loc': 6, 'T2Loc': 11, 'PreDistractor': 5, 'PostDistractor': 5, 'TotalImg': 16, 'cueWord': 'castle', 'T1cue': 'Did you see the castle?', 'StimLength': 0.5, 'isi': 0.016, 'PicFolder': 'JPG\\', 'Img1': 'tape02a', 'Img2': 'englishmuffin', 'Img3': 'flask', 'Img4': 'ladle02a', 'Img5': 'deskchair01', 'Img6': 'peach01', 'Img7': 'plasticflower01a', 'Img8': 'squeegee01b', 'Img9': 'telephone01b', 'Img10': 'whisk', 'Img11': 'lunchbox01', 'Img12': 'syringe02', 'Img13': 'baguette01', 'Img14': 'bicyclehelmet', 'Img15': 'box01', 'Img16': 'coffeepot03a', 'Img17': 'blankImage', 'T1_Identity': None}
+136.7565 	DATA 	Keypress: left
+136.7590 	EXP 	T2Response_2: autoDraw = False
+136.7590 	EXP 	text_2: height = 0.05000000000000001
+136.7590 	EXP 	text_2: height = 0.05000000000000001
+136.7590 	EXP 	text_2: height = 0.05000000000000001
+136.7590 	EXP 	text_2: text = 'castle'
+136.7590 	EXP 	text_2: autoDraw = True
+137.7522 	EXP 	Fixation_Cross_2: autoDraw = True
+137.7689 	EXP 	text_2: autoDraw = False
+138.3909 	EXP 	Fixation_Cross_2: autoDraw = False
+138.3909 	EXP 	Rapid_Image_Present_2: autoDraw = True
+140.2875 	DEPRECATION 	Couldn't find image resources\JPG\deskchair01.jpg; check path? (tried: C:\Users\User\OneDrive\Documents\GitHub\ABExperiment\resources\JPG\deskchair01.jpg)
+140.5174 	EXP 	window1: mouseVisible = True

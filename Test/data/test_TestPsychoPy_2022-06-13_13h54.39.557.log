@@ -1,0 +1,29 @@
+2.9883 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+10.3277 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1366, 768]. Using actual size
+12.2748 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002136506C130>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000021365CECB20>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+12.2755 	EXP 	window1: mouseVisible = True
+12.2755 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+12.2756 	EXP 	window1: recordFrameIntervals = False
+12.4404 	EXP 	window1: recordFrameIntervals = True
+12.6240 	EXP 	Screen (0) actual frame rate measured at 60.01Hz
+12.6241 	EXP 	window1: recordFrameIntervals = False
+15.6058 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Instructions here', units='height', win=Window(...), wrapWidth=1)
+15.6083 	EXP 	Created Practice_Text_1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Practice_Text_1', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+15.6153 	EXP 	Created Fixation_Cross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='Fixation_Cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+15.6250 	EXP 	Created Rapi_Image_Present = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Rapi_Image_Present', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+15.6352 	EXP 	text: autoDraw = True
+15.9752 	EXP 	Imported C:/Users/User/OneDrive/Documents/GitHub/Test/Practice_Condition.xlsx as conditions, 1 conditions, 29 params
+15.9759 	EXP 	Created sequence: random, trialTypes=1, nReps=5, seed=None
+15.9770 	EXP 	New trial (rep=0, index=0): {'TrialType': 'AB', 'CondType': 'Lag1_T1P_T2A', 'Lag': 1, 'T1Loc': 2, 'T2Loc': 3, 'cueWord': 'armadillo', 'StimLength': 0.5, 'isi': 0.016, 'PreDistractor': 1, 'T1_PA': 1, 'T2_PA': 0, 'PicFolder': 'resources\\', 'PostDistractor': 1, 'Img1': 'acorn.jpg', 'Img2': 'armadillo.jpg', 'Img3': 'badmintonracket.jpg', 'Img4': 'apron.jpg', 'Img5': None, 'Img6': None, 'Img7': None, 'Img8': None, 'Img9': None, 'Img10': None, 'Img11': None, 'Img12': None, 'Img13': None, 'Img14': None, 'Img15': None, 'Img16': None}
+15.9903 	DATA 	Keypress: space
+15.9931 	EXP 	text: autoDraw = False
+15.9931 	EXP 	Practice_Text_1: height = 0.05000000000000001
+15.9931 	EXP 	Practice_Text_1: height = 0.05000000000000001
+15.9931 	EXP 	Practice_Text_1: height = 0.05000000000000001
+15.9931 	EXP 	Practice_Text_1: text = 'armadillo'
+15.9931 	EXP 	Practice_Text_1: autoDraw = True
+16.9901 	EXP 	Fixation_Cross: autoDraw = True
+17.0067 	EXP 	Practice_Text_1: autoDraw = False
+17.5312 	EXP 	Fixation_Cross: autoDraw = False
+17.5312 	EXP 	Rapi_Image_Present: autoDraw = True
+19.6780 	EXP 	window1: mouseVisible = True
