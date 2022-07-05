@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.1.4),
-    on June 15, 2022, at 14:23
+    on June 22, 2022, at 12:02
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -52,7 +52,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='C:\\Users\\User\\OneDrive\\Documents\\GitHub\\ABExperiment\\ABstudy_lastrun.py',
+    originPath='C:\\Users\\Psychology\\Documents\\ABExperiment\\ABExperiment\\ABstudy_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -95,9 +95,9 @@ defaultKeyboard = keyboard.Keyboard(backend='iohub')
 # Initialize components for Routine "Practice_Instructions"
 Practice_InstructionsClock = core.Clock()
 Practice_Ins = visual.TextStim(win=win, name='Practice_Ins',
-    text='Practice trials instructions here',
+    text='PRACTICE TRIALS\n\nAt the beginning of each trial in this experiment, you will be presented with a word. This target word will be different for each trial. You will then be rapidly presented with a string of images.\n\nYou must attend to these images to try and identify the image of the target word. Then, you will be asked whether you saw the image of the target word or not.\n\nIndicate whether you saw the image of the target word by pressing the left arrow key, or not by pressing the right arrow keys.\n\nIn each trial, you must also look for an image of a blender. Respond whether you saw the blender or not in the same way, by pressing the left or right arrow keys, respectively.\n\nPress the space bar to begin',
     font='Open Sans',
-    pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
+    pos=(0, 0), height=0.03, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
     languageStyle='LTR',
     depth=0.0);
@@ -158,30 +158,13 @@ key_resp_4 = keyboard.Keyboard()
 # Initialize components for Routine "Instructions"
 InstructionsClock = core.Clock()
 text = visual.TextStim(win=win, name='text',
-    text='Instructions here',
+    text='PRACTICE TRIALS OVER\n\nNow, strings of images will be presented at a faster rate. Just like before, your task is to attend to the target word and the blender.\nWhen asked after each trial, identify whether you saw them or not. \n\nAs before, if you saw the image press the left arrow key. If you did not, press the right arrow key.\n\nPress the space bar to begin',
     font='Open Sans',
-    pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
+    pos=(0, 0), height=0.03, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
     languageStyle='LTR',
     depth=0.0);
 End_Instructions = keyboard.Keyboard()
-
-# Initialize components for Routine "textFix"
-textFixClock = core.Clock()
-text_3 = visual.TextStim(win=win, name='text_3',
-    text='',
-    font='Open Sans',
-    pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
-    color='white', colorSpace='rgb', opacity=None, 
-    languageStyle='LTR',
-    depth=0.0);
-text_4 = visual.TextStim(win=win, name='text_4',
-    text='+',
-    font='Open Sans',
-    pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
-    color='white', colorSpace='rgb', opacity=None, 
-    languageStyle='LTR',
-    depth=-1.0);
 
 # Initialize components for Routine "AB_Test"
 AB_TestClock = core.Clock()
@@ -190,6 +173,20 @@ curImage = ''
 curImageContainer = []
 trialClock = core.Clock()
 
+text_5 = visual.TextStim(win=win, name='text_5',
+    text='',
+    font='Open Sans',
+    pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
+    color='white', colorSpace='rgb', opacity=None, 
+    languageStyle='LTR',
+    depth=-2.0);
+FC = visual.TextStim(win=win, name='FC',
+    text='+',
+    font='Open Sans',
+    pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
+    color='white', colorSpace='rgb', opacity=None, 
+    languageStyle='LTR',
+    depth=-3.0);
 Rapid_Image_Present = visual.ImageStim(
     win=win,
     name='Rapid_Image_Present', 
@@ -197,7 +194,7 @@ Rapid_Image_Present = visual.ImageStim(
     ori=0.0, pos=(0, 0), size=(0.5, 0.5),
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
-    texRes=128.0, interpolate=True, depth=-2.0)
+    texRes=128.0, interpolate=True, depth=-4.0)
 
 # Initialize components for Routine "T1_Response"
 T1_ResponseClock = core.Clock()
@@ -332,7 +329,7 @@ routineTimer.reset()
 # set up handler to look after randomisation of conditions etc
 Practice_Trials = data.TrialHandler(nReps=1.0, method='sequential', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('C:/Users/User/OneDrive/Documents/GitHub/Test/Practice_Condition.xlsx'),
+    trialList=data.importConditions('Test/Practice_Condition.xlsx'),
     seed=None, name='Practice_Trials')
 thisExp.addLoop(Practice_Trials)  # add the loop to the experiment
 thisPractice_Trial = Practice_Trials.trialList[0]  # so we can initialise stimuli with some values
@@ -895,7 +892,7 @@ routineTimer.reset()
 # set up handler to look after randomisation of conditions etc
 trials = data.TrialHandler(nReps=1.0, method='sequential', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('C:/Users/User/OneDrive/Documents/GitHub/Test/Practice_Condition_3.xlsx'),
+    trialList=data.importConditions('Test/Practice_Condition_3.xlsx'),
     seed=None, name='trials')
 thisExp.addLoop(trials)  # add the loop to the experiment
 thisTrial = trials.trialList[0]  # so we can initialise stimuli with some values
@@ -911,95 +908,6 @@ for thisTrial in trials:
         for paramName in thisTrial:
             exec('{} = thisTrial[paramName]'.format(paramName))
     
-    # ------Prepare to start Routine "textFix"-------
-    continueRoutine = True
-    routineTimer.add(1.500000)
-    # update component parameters for each repeat
-    text_3.setText(cueWord)
-    # keep track of which components have finished
-    textFixComponents = [text_3, text_4]
-    for thisComponent in textFixComponents:
-        thisComponent.tStart = None
-        thisComponent.tStop = None
-        thisComponent.tStartRefresh = None
-        thisComponent.tStopRefresh = None
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
-    # reset timers
-    t = 0
-    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    textFixClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-    frameN = -1
-    
-    # -------Run Routine "textFix"-------
-    while continueRoutine and routineTimer.getTime() > 0:
-        # get current time
-        t = textFixClock.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=textFixClock)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
-        
-        # *text_3* updates
-        if text_3.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            text_3.frameNStart = frameN  # exact frame index
-            text_3.tStart = t  # local t and not account for scr refresh
-            text_3.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_3, 'tStartRefresh')  # time at next scr refresh
-            text_3.setAutoDraw(True)
-        if text_3.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_3.tStartRefresh + 1.0-frameTolerance:
-                # keep track of stop time/frame for later
-                text_3.tStop = t  # not accounting for scr refresh
-                text_3.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_3, 'tStopRefresh')  # time at next scr refresh
-                text_3.setAutoDraw(False)
-        
-        # *text_4* updates
-        if text_4.status == NOT_STARTED and tThisFlip >= 1-frameTolerance:
-            # keep track of start time/frame for later
-            text_4.frameNStart = frameN  # exact frame index
-            text_4.tStart = t  # local t and not account for scr refresh
-            text_4.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_4, 'tStartRefresh')  # time at next scr refresh
-            text_4.setAutoDraw(True)
-        if text_4.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_4.tStartRefresh + .5-frameTolerance:
-                # keep track of stop time/frame for later
-                text_4.tStop = t  # not accounting for scr refresh
-                text_4.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_4, 'tStopRefresh')  # time at next scr refresh
-                text_4.setAutoDraw(False)
-        
-        # check for quit (typically the Esc key)
-        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-            core.quit()
-        
-        # check if all components have finished
-        if not continueRoutine:  # a component has requested a forced-end of Routine
-            break
-        continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in textFixComponents:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
-        
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
-    
-    # -------Ending Routine "textFix"-------
-    for thisComponent in textFixComponents:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    trials.addData('text_3.started', text_3.tStartRefresh)
-    trials.addData('text_3.stopped', text_3.tStopRefresh)
-    trials.addData('text_4.started', text_4.tStartRefresh)
-    trials.addData('text_4.stopped', text_4.tStopRefresh)
-    
     # ------Prepare to start Routine "AB_Test"-------
     continueRoutine = True
     # update component parameters for each repeat
@@ -1008,8 +916,9 @@ for thisTrial in trials:
     imageCount = 0
     frame = 0
     #imgOnScreen = False
+    text_5.setText(cueWord)
     # keep track of which components have finished
-    AB_TestComponents = [Rapid_Image_Present]
+    AB_TestComponents = [text_5, FC, Rapid_Image_Present]
     for thisComponent in AB_TestComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -1036,103 +945,103 @@ for thisTrial in trials:
         curImage = "resources\\JPG\\" + Img1
         imageCount = 1
         
-        if t>StimLength:
+        if t>StimLength + 1.5:
             curImage = "resources\\JPG\\" + Img2
             imageCount = 2
         
-        if t>StimLength*2:
+        if t>StimLength*2 + 1.5:
             curImage = "resources\\JPG\\" + Img3
             imageCount = 3
         
-        if t>StimLength*3:
+        if t>StimLength*3 + 1.5:
             curImage = "resources\\JPG\\" + Img4
             imageCount = 4
         
-        if t>StimLength*4:
+        if t>StimLength*4 + 1.5:
             if Img5 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img5
                 imageCount = 5
         
-        if t>StimLength*5:
+        if t>StimLength*5 + 1.5:
             if Img6 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img6
                 imageCount = 6
         
-        if t>StimLength*6:
+        if t>StimLength*6 + 1.5:
             if Img7 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img7
                 imageCount = 7
         
-        if t>StimLength*7:
+        if t>StimLength*7 + 1.5:
             if Img8 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img8
                 imageCount = 8
         
-        if t>StimLength*8:
+        if t>StimLength*8 + 1.5:
             if Img9 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img9
                 imageCount = 9
         
-        if t>StimLength*9:
+        if t>StimLength*9 + 1.5:
             if Img10 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img10
                 imageCount = 10
         
-        if t>StimLength*10:
+        if t>StimLength*10 + 1.5:
             if Img11 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img11
                 imageCount = 11
         
-        if t>StimLength*11:
+        if t>StimLength*11 + 1.5:
             if Img12 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img12
                 imageCount = 12
         
-        if t>StimLength*12:
+        if t>StimLength*12 + 1.5:
             if Img13 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img13
                 imageCount = 13
         
-        if t>StimLength*13:
+        if t>StimLength*13 + 1.5:
             if Img14 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img14
                 imageCount = 14
         
-        if t>StimLength*14:
+        if t>StimLength*14 + 1.5:
             if Img15 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img15
                 imageCount = 15
         
-        if t>StimLength*15 :
+        if t>StimLength*15 + 1.5:
             if Img16 == "blankImage":
                 continueRoutine = False
             else:
                 curImage = "resources\\JPG\\" + Img16
                 imageCount = 16
         
-        if t>StimLength*16:
+        if t>StimLength*16 + 1.5:
             if Img17 == "blankImage":
                 continueRoutine = False
             else:
@@ -1145,6 +1054,40 @@ for thisTrial in trials:
         #    Practice_Trials.addData('ErrorImage', curImage)
          #   curImage = "resources\\JPG\\" + "blender.jpg"
             
+        
+        # *text_5* updates
+        if text_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            text_5.frameNStart = frameN  # exact frame index
+            text_5.tStart = t  # local t and not account for scr refresh
+            text_5.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(text_5, 'tStartRefresh')  # time at next scr refresh
+            text_5.setAutoDraw(True)
+        if text_5.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > text_5.tStartRefresh + 1.0-frameTolerance:
+                # keep track of stop time/frame for later
+                text_5.tStop = t  # not accounting for scr refresh
+                text_5.frameNStop = frameN  # exact frame index
+                win.timeOnFlip(text_5, 'tStopRefresh')  # time at next scr refresh
+                text_5.setAutoDraw(False)
+        
+        # *FC* updates
+        if FC.status == NOT_STARTED and tThisFlip >= 1-frameTolerance:
+            # keep track of start time/frame for later
+            FC.frameNStart = frameN  # exact frame index
+            FC.tStart = t  # local t and not account for scr refresh
+            FC.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(FC, 'tStartRefresh')  # time at next scr refresh
+            FC.setAutoDraw(True)
+        if FC.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > FC.tStartRefresh + 0.5-frameTolerance:
+                # keep track of stop time/frame for later
+                FC.tStop = t  # not accounting for scr refresh
+                FC.frameNStop = frameN  # exact frame index
+                win.timeOnFlip(FC, 'tStopRefresh')  # time at next scr refresh
+                FC.setAutoDraw(False)
         
         # *Rapid_Image_Present* updates
         if Rapid_Image_Present.status == NOT_STARTED and tThisFlip >= 1.5-frameTolerance:
@@ -1186,6 +1129,10 @@ for thisTrial in trials:
     for thisComponent in AB_TestComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
+    trials.addData('text_5.started', text_5.tStartRefresh)
+    trials.addData('text_5.stopped', text_5.tStopRefresh)
+    trials.addData('FC.started', FC.tStartRefresh)
+    trials.addData('FC.stopped', FC.tStopRefresh)
     trials.addData('Rapid_Image_Present.started', Rapid_Image_Present.tStartRefresh)
     trials.addData('Rapid_Image_Present.stopped', Rapid_Image_Present.tStopRefresh)
     # the Routine "AB_Test" was not non-slip safe, so reset the non-slip timer
